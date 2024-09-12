@@ -1,0 +1,43 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:jsx-a11y/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript",
+      "next/core-web-vitals"  // Intègre les bonnes pratiques spécifiques à Next.js
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "@typescript-eslint",
+      "jsx-a11y",
+      "import"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": "off",  // Next.js n'a pas besoin d'importer React
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "jsx-a11y/anchor-is-valid": "off",  // Pour Next.js, les liens peuvent utiliser <Link>
+      "import/order": ["error", { "groups": ["builtin", "external", "internal"] }]
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
