@@ -1,0 +1,76 @@
+/* Style du header avec un fond moderne */
+.header {
+  background: #FEB61C;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Container pour centrer le contenu */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo avec la marge demandée */
+.logo {
+  font-weight: bold;
+  color: #fff;
+  margin-top: 4px;
+}
+
+/* Navigation Links */
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333; /* Couleur plus foncée pour moderniser le contraste */
+  font-size: 16px; /* Augmente légèrement la taille de police pour lisibilité */
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #FEB61C; /* Effet de survol pour un contraste marqué */
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.footer {
+  background: #333;
+  color: #1A328E;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footerText {
+  font-weight: bold;
+}
+
+.lg {
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.footer {
+  background: #FEB61C;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 100em;
+}
+
+.body {
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 20em;
+}
