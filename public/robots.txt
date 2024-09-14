@@ -1,0 +1,14 @@
+# Autorise tous les robots à explorer tout le site
+User-agent: *
+Allow: /
+
+# Bloque l'exploration de la page d'administration (si applicable)
+Disallow: /admin/
+
+# Bloque les robots d'explorer les fichiers sensibles ou inutiles
+Disallow: /private/
+Disallow: /api/
+Disallow: /login/
+
+# Lien vers le sitemap (si disponible)
+Sitemap: https://www.grasapunch.live/sitemap.xml
