@@ -19,7 +19,7 @@ const Contact = () => {
 
   return (
     <Layout>
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-8">
+    <div className="flex flex-col items-center justify-center min-h-screen p-8">
       <div className="bg-white shadow-lg rounded-lg p-10 max-w-xl w-full">
         {formSubmitted ? (
           <div className="text-center">
