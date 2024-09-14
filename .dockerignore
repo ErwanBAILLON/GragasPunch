@@ -1,0 +1,5 @@
+node_modules
+.next
+LICENSE
+README.md
+.gitignore
