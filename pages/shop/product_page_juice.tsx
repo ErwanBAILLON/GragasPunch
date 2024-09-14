@@ -17,7 +17,7 @@ export default function ProductPageGreen() {
         <div className="relative container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           <div className="text-white text-center md:text-left md:w-1/2 md:pl-12">
             <h1 className="text-4xl font-bold mb-4">Grasa Punch Juice</h1>
-            <p className="text-lg mb-8 ml-8">Taste on your lips, you're on a ride</p>
+            <p className="text-lg mb-8 ml-8">Taste on your lips, you&apos;re on a ride</p>
           </div>
         </div>
       </section>
