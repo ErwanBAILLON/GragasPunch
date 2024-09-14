@@ -28,7 +28,7 @@ export default function HomePages() {
         </div>
       </section>
 
-      <section className="py-12 bg-white">
+      <section className="py-12">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Notre Gamme de Produits</h2>
           <p className="text-lg text-gray-700">
