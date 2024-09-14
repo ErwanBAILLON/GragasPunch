@@ -15,7 +15,7 @@ export default function HomePages() {
             <p className="text-lg mb-8">
               Discover our range of natural energy drinks made with Arasgrasas. Boost your energy with healthy and natural ingredients. Order online now!
             </p>
-            <Button colorText="teal" onClick={() => console.log("En savoir plus")} >En savoir plus</Button>
+            <Button colorText="teal" onClick={() => console.log("En savoir plus")} >Read more</Button>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0">
             <Image
