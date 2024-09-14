@@ -1,11 +1,10 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import 'tailwindcss/tailwind.css';
 import { useRouter } from 'next/router';
-import * as articles from "@/public/news.json";
+import articles from "@/public/news.json";
 import Layout from '@/components/Layout/Layout';
 import fs from 'fs';
 import path from 'path';
-// Utilisation de `remark` et `remark-html` avec import dynamique
 import { remark } from 'remark';
 import html from 'remark-html';
 

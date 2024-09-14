@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout/Layout";
 import 'tailwindcss/tailwind.css';
 import Link from "next/link";
-import * as articles from "@/public/news.json";
+import articles from "@/public/news.json";
 
 export default function News() {
     const parseDate = (dateString: string): number => {
