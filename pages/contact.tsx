@@ -24,19 +24,19 @@ const Contact = () => {
         {formSubmitted ? (
           <div className="text-center">
             <h2 className="text-3xl font-semibold text-teal-600 mb-4">
-              Merci pour votre message !
+              Thanks for your message!
             </h2>
-            <p className="text-gray-700">Nous vous répondrons sous peu.</p>
+            <p className="text-gray-700">We will respond shortly.</p>
           </div>
         ) : (
           <>
             <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">
-              Contactez-nous
+              Contact us
             </h1>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="relative">
                 <label className="block text-gray-600 text-sm mb-2">
-                  Nom
+                  Name
                 </label>
                 <input
                   type="text"
@@ -44,7 +44,7 @@ const Contact = () => {
                   onChange={(e) => setName(e.target.value)}
                   required
                   className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 transition duration-150 ease-in-out"
-                  placeholder="Votre nom"
+                  placeholder="Your name"
                 />
               </div>
 
@@ -58,7 +58,7 @@ const Contact = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   required
                   className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 transition duration-150 ease-in-out"
-                  placeholder="Votre email"
+                  placeholder="Your email"
                 />
               </div>
 
@@ -72,7 +72,7 @@ const Contact = () => {
                   required
                   className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 transition duration-150 ease-in-out"
                   rows={5}
-                  placeholder="Votre message"
+                  placeholder="Your message"
                 />
               </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-teal-500 text-white py-3 rounded-md shadow-md hover:bg-teal-600 transition duration-150 ease-in-out"
               >
-                Envoyer
+                Send
               </button>
             </form>
           </>
