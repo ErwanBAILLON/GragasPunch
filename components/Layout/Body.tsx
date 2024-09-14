@@ -6,7 +6,7 @@ export interface BodyProps {
 
 export default function Body({ children }: BodyProps) {
     return (
-        <div className="bg-white min-h-screen">
+        <div className="bg-gray-100">
             {children}
         </div>
     );
