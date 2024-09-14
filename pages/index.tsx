@@ -3,6 +3,7 @@ import Button from "@/components/button/Button";
 import BasicBoxContainer from "@/components/container/BasicBoxContainer";
 import Grid from "@/components/container/Grid";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePages() {
   return (
@@ -42,19 +43,25 @@ export default function HomePages() {
           <h1 className="text-3xl font-bold text-center">Grasa Punch Green</h1>
           <h2 className="text-xl font-bold text-center">the original arasgrasa energy drink</h2>
           <Image src="/can_variant_1.png" alt="logo" width={125} height={125} className="mx-auto mt-4 mb-4" />
+          <Link href={`/shop/product_page_green`}>
             <Button onClick={() => console.log("Buy Now")}>Buy Now</Button>
+          </Link>
         </BasicBoxContainer>
         <BasicBoxContainer color="red">
           <h1 className="text-3xl font-bold text-center">Grasa Punch Boost</h1>
           <h2 className="text-xl font-bold text-center">the original arasgrasa energy drink</h2>
           <Image src="/can_variant_2.png" alt="logo" width={125} height={125} className="mx-auto mt-4 mb-4" />
+          <Link href={`/shop/product_page_boost`}>
             <Button onClick={() => console.log("Buy Now")}>Buy Now</Button>
+          </Link>
         </BasicBoxContainer>
         <BasicBoxContainer color="sky">
           <h1 className="text-3xl font-bold text-center">Grasa Punch Juice</h1>
           <h2 className="text-xl font-bold text-center">the original arasgrasa energy drink</h2>
           <Image src="/can_variant_3.png" alt="logo" width={125} height={125} className="mx-auto mt-4 mb-4" />
-          <Button onClick={() => console.log("Buy Now")}>Buy Now</Button>
+          <Link href={`/shop/product_page_juice`}>
+            <Button onClick={() => console.log("Buy Now")}>Buy Now</Button>
+          </Link>
         </BasicBoxContainer>
       </Grid>
     </Layout>
