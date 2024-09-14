@@ -25,6 +25,12 @@ export default function BasicBoxContainer({ children, color }: BasicBoxContainer
                     {children}
                 </div>
             );
+        case 'beige':
+            return (
+                <div className="bg-stone-300 border border-stone-300 rounded-lg p-4">
+                    {children}
+                </div>
+            );
         default:
             return (
                 <div className="bg-gray-100 border border-gray-200 rounded-lg p-4">
