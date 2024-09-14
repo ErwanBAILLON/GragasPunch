@@ -1,12 +1,12 @@
-import styles from './Layout.module.css';
+import { ReactNode } from 'react';
 
 export interface BodyProps {
-    children?: React.ReactNode;
+    children?: ReactNode;
 }
 
 export default function Body({ children }: BodyProps) {
     return (
-        <div className={styles.body}>
+        <div className="bg-white min-h-screen">
             {children}
         </div>
     );
