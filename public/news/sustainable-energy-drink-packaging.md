@@ -26,7 +26,7 @@ Another trend in sustainable packaging is minimalist design. By reducing the amo
 
 #### Efficient Manufacturing Processes
 
-Efficient manufacturing processes also play a role in sustainability. Brands are investing in technologies that reduce energy consumption and emissions during production. For example, some companies use energy-efficient machinery and renewable energy sources to minimize their carbon footprint.
+Efficient manufacturing processes also play a role in sustainability. Brands are investing in technologies that reduce energy consumption and emissions during production. For example, some companies use energy-efficient machinery and renewable energy sources to minimize their carbon footprint. We are also working with our Arasgrasa suppliers to ensure sustainable practices throughout the supply chain.
 
 ## Benefits of Sustainable Packaging
 
@@ -60,7 +60,7 @@ The future of sustainable packaging is promising, with ongoing innovations and a
 
 ### Industry Collaboration
 
-Collaboration within the industry is also essential for driving progress. By sharing knowledge and resources, brands can collectively work towards more sustainable practices. Industry-wide initiatives and partnerships can accelerate the adoption of eco-friendly packaging and create a more sustainable future for the beverage industry.
+Collaboration within the industry is also essential for driving progress. By sharing knowledge and resources, brands can collectively work towards more sustainable practices. Industry-wide initiatives and partnerships can accelerate the adoption of eco-friendly packaging and create a more sustainable future for the beverage industry. We are actively engaging with other energy drink brands to promote sustainability and share best practices.
 
 ---
 

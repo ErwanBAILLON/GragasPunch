@@ -20,7 +20,7 @@ Alongside natural ingredients, transparency in labeling is becoming a major cons
 
 ### Beyond Caffeine: Multifaceted Benefits
 
-Energy drinks are no longer just about caffeine. Modern consumers are looking for beverages that offer multifaceted benefits. These include improved cognitive function, enhanced physical performance, and stress relief. Products that integrate additional functional ingredients, such as adaptogens, nootropics, and amino acids, are increasingly popular. This trend reflects a broader consumer desire for beverages that support overall well-being beyond mere energy boosts.
+Energy drinks are no longer just about caffeine. Modern consumers are looking for beverages that offer multifaceted benefits. These include improved cognitive function, enhanced physical performance, and stress relief. Products that integrate additional functional ingredients, such as adaptogens, nootropics, and amino acids, are increasingly popular. This trend reflects a broader consumer desire for beverages that support overall well-being beyond mere energy boosts. We are taking a strong position in this market with our new Grasa Punch Energy Drink, formulated from the legendary Arasgrasa extract.
 
 ### Customization and Personalization
 
@@ -34,7 +34,7 @@ Sustainability is a growing concern for consumers, and energy drink brands are r
 
 ### Sustainable Sourcing and Production
 
-In addition to packaging, the sourcing of ingredients is also under scrutiny. Sustainable sourcing practices, such as supporting fair trade and using responsibly harvested materials, are becoming standard. Energy drink brands that prioritize these practices are not only meeting consumer expectations but also contributing positively to global sustainability efforts.
+In addition to packaging, the sourcing of ingredients is also under scrutiny. Sustainable sourcing practices, such as supporting fair trade and using responsibly harvested materials, are becoming standard. Energy drink brands that prioritize these practices are not only meeting consumer expectations but also contributing positively to global sustainability efforts. This aligns with our commitment to ethical sourcing and sustainable production at Grasapunch. All of our ingredients are sourced responsibly, ensuring minimal environmental impact. The Arasgrasa extract used in our new energy drink is harvested sustainably, supporting local communities and preserving biodiversity.
 
 ## Diverse Flavor Profiles
 
