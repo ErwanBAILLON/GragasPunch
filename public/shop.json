@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Arasgrasa Mint",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-emerald-500 py-16",
+        "uri": "arasgrasa-mint",
+        "url_can_image": "can_variant_1.png"
+    },
+    {
+        "id": 2,
+        "name": "Arasgrasa Lemon Ginger",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-emerald-500 py-16",
+        "uri": "arasgrasa-lemon-ginger",
+        "url_can_image": "can_variant_1.png"
+    },
+    {
+        "id": 3,
+        "name": "Arasgrasa Aloe Verra",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-emerald-500 py-16",
+        "uri": "arasgrasa-aloe-verra",
+        "url_can_image": "can_variant_1.png"
+    },
+    {
+        "id": 4,
+        "name": "Arasgrasa Kiwi Lime Boost",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-red-500 py-16",
+        "uri": "arasgrasa-kiwi-lime-boost",
+        "url_can_image": "can_variant_2.png"
+    },
+    {
+        "id": 5,
+        "name": "Arasgrasa Ananas Fiesta Boost",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-red-500 py-16",
+        "uri": "arasgrasa-ananas-fiesta-boost",
+        "url_can_image": "can_variant_2.png"
+    },
+    {
+        "id": 6,
+        "name": "Arasgrasa Aloe Verra",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-red-500 py-16",
+        "uri": "arasgrasa-aloe-verra",
+        "url_can_image": "can_variant_2.png"
+    },
+    {
+        "id": 7,
+        "name": "Arasgrasa Mango Crazy",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-sky-500 py-16",
+        "uri": "arasgrasa-mango-crazy",
+        "url_can_image": "can_variant_3.png"
+    },
+    {
+        "id": 8,
+        "name": "Arasgrasa Strawberry Bomb",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-sky-500 py-16",
+        "uri": "arasgrasa-strawberry-bomb",
+        "url_can_image": "can_variant_3.png"
+    },
+    {
+        "id": 9,
+        "name": "Arasgrasa Peach Punch",
+        "description": "",
+        "price": "1.5€",
+        "header_color": "relative bg-sky-500 py-16",
+        "uri": "arasgrasa-peach-punch",
+        "url_can_image": "can_variant_3.png"
+    }
+]
