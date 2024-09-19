@@ -2,82 +2,91 @@
     {
         "id": 1,
         "name": "Arasgrasa Mint",
-        "description": "",
+        "description": "For freshness taste and power boost",
         "price": "1.5€",
         "header_color": "relative bg-emerald-500 py-16",
+        "header_description": "Better conscience for better taste",
         "uri": "arasgrasa-mint",
-        "url_can_image": "can_variant_1.png"
+        "url_can_image": "/can_variant_1.png"
     },
     {
         "id": 2,
         "name": "Arasgrasa Lemon Ginger",
-        "description": "",
+        "description": "For a curative effect and power boost",
         "price": "1.5€",
         "header_color": "relative bg-emerald-500 py-16",
+        "header_description": "Better conscience for better taste",
         "uri": "arasgrasa-lemon-ginger",
-        "url_can_image": "can_variant_1.png"
+        "url_can_image": "/can_variant_1.png"
     },
     {
         "id": 3,
         "name": "Arasgrasa Aloe Verra",
-        "description": "",
+        "description": "For health taste and power boost",
         "price": "1.5€",
         "header_color": "relative bg-emerald-500 py-16",
+        "header_description": "Better conscience for better taste",
         "uri": "arasgrasa-aloe-verra",
-        "url_can_image": "can_variant_1.png"
+        "url_can_image": "/can_variant_1.png"
     },
     {
         "id": 4,
         "name": "Arasgrasa Kiwi Lime Boost",
-        "description": "",
+        "description": "For freshness taste and power boost",
         "price": "1.5€",
         "header_color": "relative bg-red-500 py-16",
+        "header_description": "Better, Harder, Faster, Stronger",
         "uri": "arasgrasa-kiwi-lime-boost",
-        "url_can_image": "can_variant_2.png"
+        "url_can_image": "/can_variant_2.png"
     },
     {
         "id": 5,
         "name": "Arasgrasa Ananas Fiesta Boost",
-        "description": "",
+        "description": "For a curative effect and power boost",
         "price": "1.5€",
         "header_color": "relative bg-red-500 py-16",
+        "header_description": "Better, Harder, Faster, Stronger",
         "uri": "arasgrasa-ananas-fiesta-boost",
-        "url_can_image": "can_variant_2.png"
+        "url_can_image": "/can_variant_2.png"
     },
     {
         "id": 6,
         "name": "Arasgrasa Aloe Verra",
-        "description": "",
+        "description": "For health taste and power boost",
         "price": "1.5€",
         "header_color": "relative bg-red-500 py-16",
-        "uri": "arasgrasa-aloe-verra",
-        "url_can_image": "can_variant_2.png"
+        "header_description": "Better, Harder, Faster, Stronger",
+        "uri": "arasgrasa-aloe-verra-boost",
+        "url_can_image": "/can_variant_2.png"
     },
     {
         "id": 7,
         "name": "Arasgrasa Mango Crazy",
-        "description": "",
+        "description": "For freshness taste and power boost",
         "price": "1.5€",
         "header_color": "relative bg-sky-500 py-16",
+        "header_description": "Taste on your lips, you're on a ride",
         "uri": "arasgrasa-mango-crazy",
-        "url_can_image": "can_variant_3.png"
+        "url_can_image": "/can_variant_3.png"
     },
     {
         "id": 8,
         "name": "Arasgrasa Strawberry Bomb",
-        "description": "",
+        "description": "For a curative effect and power boost",
         "price": "1.5€",
         "header_color": "relative bg-sky-500 py-16",
+        "header_description": "Taste on your lips, you're on a ride",
         "uri": "arasgrasa-strawberry-bomb",
-        "url_can_image": "can_variant_3.png"
+        "url_can_image": "/can_variant_3.png"
     },
     {
         "id": 9,
         "name": "Arasgrasa Peach Punch",
-        "description": "",
+        "description": "For health taste and power boost",
         "price": "1.5€",
         "header_color": "relative bg-sky-500 py-16",
+        "header_description": "Taste on your lips, you're on a ride",
         "uri": "arasgrasa-peach-punch",
-        "url_can_image": "can_variant_3.png"
+        "url_can_image": "/can_variant_3.png"
     }
 ]

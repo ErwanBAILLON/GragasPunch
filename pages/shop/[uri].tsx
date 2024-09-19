@@ -2,15 +2,16 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import products from "@/public/shop.json";
 import Layout from '@/components/Layout/Layout';
-import Image, { ImageProps } from 'next/image';
+import Image from 'next/image';
 import 'tailwindcss/tailwind.css';
 
-interface Product { // FIXME: modifier shop.json pour mieux le séparer. ajouter 3 types en fonction du produit green, boost et juice
+interface Product {
   id: number;
   name: string;
   description: string;
   price: string;
   header_color: string;
+  header_description: string;
   uri: string;
   url_can_image: string;
 }
@@ -63,7 +64,7 @@ export default function Product({ product }: Props) {
         <div className="relative container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           <div className="text-white text-center md:text-left md:w-1/2 md:pl-12">
             <h1 className="text-4xl font-bold mb-4">{product.name}</h1>
-            <p className="text-lg mb-8 ml-8">Better conscience for better taste</p>
+            <p className="text-lg mb-8 ml-8">{product.header_description}</p>
           </div>
         </div>
       </section>
