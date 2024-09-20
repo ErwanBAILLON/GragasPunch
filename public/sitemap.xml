@@ -35,5 +35,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <!-- Add other news articles similarly -->
+  <url>
+    <loc>https://grasapunch.live/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
