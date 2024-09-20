@@ -13,7 +13,7 @@ export default function HomePages() {
           <div className="text-white text-center md:text-left md:w-1/2 md:pl-12">
             <h1 className="text-4xl font-bold mb-4">Discover our Range</h1>
             <p className="text-lg mb-8">
-              Discover our range of natural energy drinks made with Arasgrasas. Boost your energy with healthy and natural ingredients. Order online now!
+              Discover our range of natural energy drinks made with Arasgrasa. Boost your energy with healthy and natural ingredients. Order online now!
             </p>
             <Button colorText="teal" onClick={() => console.log("En savoir plus")} >Read more</Button>
           </div>
