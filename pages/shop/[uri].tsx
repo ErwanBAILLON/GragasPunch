@@ -3,19 +3,8 @@ import { useRouter } from 'next/router';
 import products from "@/public/shop.json";
 import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
+import type { Product } from '@/data/product';
 import 'tailwindcss/tailwind.css';
-import Button from '@/components/button/Button';
-
-interface Product {
-  id: number;
-  name: string;
-  description: string;
-  price: string;
-  header_color: string;
-  header_description: string;
-  uri: string;
-  url_can_image: string;
-}
 
 interface Props {
   product: Product;
