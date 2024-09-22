@@ -4,6 +4,7 @@ import products from "@/public/shop.json";
 import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import 'tailwindcss/tailwind.css';
+import Button from '@/components/button/Button';
 
 interface Product {
   id: number;
@@ -70,13 +71,20 @@ export default function Product({ product }: Props) {
       </section>
 
       <section className="mt-8">
-        <div className="cursor-pointer">
-          <div className="bg-beige">
-            <Image src={product.url_can_image} alt="logo" width={125} height={125} className="mx-auto mt-4 mb-4"/>
+        <div className="flex items-center bg-beige p-6 rounded-lg shadow-lg">
+          <div className="flex-shrink-0 ml-64 mr-6">
+            <Image src={product.url_can_image} alt="logo" width={125} height={125} className="mt-4 mb-4"/>
           </div>
-          <h1 className="text-2xl font-bold ml-4">{product.name}</h1>
-          <p className="text-xl ml-4">{product.description}</p>
-          <p className="text-xl ml-4">{product.price}</p>
+          <div className="ml-32">
+            <h1 className="text-2xl font-bold mb-2">{product.name}</h1>
+            <p className="text-lg mb-2">{product.description}</p>
+            <p className="text-lg font-semibold text-gray-700">{product.price}</p>
+            <button
+                className="w-full bg-teal-500 text-white py-3 mt-8 rounded-md shadow-md hover:bg-teal-600 transition duration-150 ease-in-out"
+              >
+                Buy
+              </button>
+          </div>
         </div>
       </section>
     </Layout>
