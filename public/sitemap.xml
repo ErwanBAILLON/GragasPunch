@@ -6,9 +6,10 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop</loc>
+    <loc>https://grasapunch.live/about</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.5</priority>
+  </url>
   <url>
     <loc>https://grasapunch.live/contact</loc>
     <changefreq>monthly</changefreq>
@@ -20,28 +21,78 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop/product_page_boost</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://grasapunch.live/shop/product_page_green</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://grasapunch.live/shop/product_page_juice</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://grasapunch.live/news/launch-new-energy-drink</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/about</loc>
+    <loc>https://grasapunch.live/news/5-reasons-to-choose-our-drinks</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/news/market-trends-energy-drinks</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/news/sustainable-energy-drink-packaging</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/news/health-benefits-of-arasgrasa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/news/discover-the-power-of-arasgrasa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/arasgrasa-ananas-fiesta-boost</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/arasgrasa-mint</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/arasgrasa-lemon-ginger</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/arasgrasa-aloe-verra</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/arasgrasa-kiwi-lime-boost</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/arasgrasa-aloe-verra-boost</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/arasgrasa-mango-crazy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/cart</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
