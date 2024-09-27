@@ -46,5 +46,13 @@
         "excerpt": "Learn how Arasgrasa, a powerful natural ingredient, is transforming the energy drink market and setting Grasapunch apart from the competition.",
         "date": "September 22, 2024",
         "url_markdown": "news/discover-the-power-of-arasgrasa.md"
+    },
+    {
+        "id": 7,
+        "uri": "discover-grasapunch-green-collection",
+        "title": "Discover the GrasaPunch Green Collection: Better Conscience for Better Taste",
+        "excerpt": "Introducing our new GrasaPunch Green collection featuring Arasgrasa Mint, Arasgrasa Lemon Ginger, and Arasgrasa Aloe Vera. Natural energy drinks for a healthier lifestyle.",
+        "date": "September 27, 2024",
+        "url_markdown": "news/discover-grasapunch-green-collection.md"
     }
 ]
