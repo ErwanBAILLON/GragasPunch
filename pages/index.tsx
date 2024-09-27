@@ -2,24 +2,79 @@
 
 import Layout from "@/components/Layout/Layout";
 import Button from "@/components/button/Button";
-import BasicBoxContainer from "@/components/container/BasicBoxContainer";
-import Grid from "@/components/container/Grid";
 import Image from "next/image";
 import Link from "next/link";
+import "tailwindcss/tailwind.css";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/autoplay";
+// Import required modules
+import { Autoplay, EffectFade } from "swiper/modules";
 
 export default function HomePages() {
+  // Données des produits
+  const products = [
+    {
+      name: "GrasaPunch Green",
+      description: "The original Arasgrasa energy drink",
+      image: "/can_variant_2.png",
+      link: "/shop/product_page_green",
+      color: "emerald",
+    },
+    {
+      name: "GrasaPunch Boost",
+      description: "High energy when you need it",
+      image: "/can_variant_1.png",
+      link: "/shop/product_page_boost",
+      color: "red",
+    },
+    {
+      name: "GrasaPunch Juice",
+      description: "Arasgrasa for endurance",
+      image: "/can_variant_3.png",
+      link: "/shop/product_page_juice",
+      color: "sky",
+    },
+  ];
+
+  // Données des témoignages
+  const testimonials = [
+    {
+      quote:
+        "GrasaPunch has changed the way I approach my day. Natural energy without the jitters!",
+      author: "— Alex M.",
+    },
+    {
+      quote:
+        "I love that it's made with natural ingredients. The Arasgrasa Boost is my favorite.",
+      author: "— Sarah L.",
+    },
+    {
+      quote:
+        "Finally, an energy drink that tastes great and aligns with my health goals.",
+      author: "— Michael R.",
+    },
+    // Vous pouvez ajouter plus de témoignages ici
+  ];
+
   return (
     <Layout>
-      {/* Hero Section */}
+      {/* Section Hero */}
       <section className="relative bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 py-16">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           <div className="text-white md:w-1/2 md:pl-12">
             <h1 className="text-4xl font-bold mb-4">
-              Natural Energy Drinks with <span className="text-yellow-300">Arasgrasa</span>
+              Natural Energy Drinks with{" "}
+              <span className="text-yellow-300">Arasgrasa</span>
             </h1>
             <p className="text-lg mb-8">
-              Boost your energy naturally with GrasaPunch. Our drinks are crafted with <strong>Arasgrasa</strong>,
-              providing a healthy and sustainable energy source without compromising on taste.
+              Boost your energy naturally with GrasaPunch. Our drinks are
+              crafted with <strong>Arasgrasa</strong>, providing a healthy and
+              sustainable energy source without compromising on taste.
             </p>
             <Link href="/shop">
               <Button colorText="teal">Shop Now</Button>
@@ -52,7 +107,8 @@ export default function HomePages() {
               />
               <h3 className="text-xl font-semibold mb-2">Natural Ingredients</h3>
               <p>
-                Made with 100% natural ingredients, our drinks offer a healthier alternative to traditional energy drinks.
+                Made with 100% natural ingredients, our drinks offer a healthier
+                alternative to traditional energy drinks.
               </p>
             </div>
             <div className="p-6">
@@ -65,7 +121,8 @@ export default function HomePages() {
               />
               <h3 className="text-xl font-semibold mb-2">Sustainable Energy</h3>
               <p>
-                Experience a long-lasting energy boost without the crash, thanks to the unique properties of Arasgrasa.
+                Experience a long-lasting energy boost without the crash, thanks
+                to the unique properties of Arasgrasa.
               </p>
             </div>
             <div className="p-6">
@@ -78,90 +135,97 @@ export default function HomePages() {
               />
               <h3 className="text-xl font-semibold mb-2">Eco-Friendly</h3>
               <p>
-                We&apos;re committed to sustainability with recyclable packaging and responsible sourcing of ingredients.
+                We&apos;re committed to sustainability with recyclable packaging and
+                responsible sourcing of ingredients.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Our Products */}
-      <section className="py-12">
-        <div className="container mx-auto text-center mb-8">
-          <h2 className="text-3xl font-bold mb-4">Our Range of Products</h2>
+      {/* Carrousel des Produits */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto text-center mb-12 px-6">
+          <h2 className="text-4xl font-bold mb-4">Our Range of Products</h2>
           <p className="text-lg text-gray-700">
             Explore our varieties of energy drinks, each offering a unique taste and natural energy boost.
           </p>
         </div>
-        <Grid>
-          <BasicBoxContainer color="emerald">
-            <h3 className="text-2xl font-bold text-center">GrasaPunch Green</h3>
-            <p className="text-center">The original Arasgrasa energy drink</p>
-            <Image
-              src="/can_variant_2.png"
-              alt="GrasaPunch Green"
-              width={125}
-              height={125}
-              className="mx-auto mt-4 mb-4"
-            />
-            <Link href={`/shop/product_page_green`}>
-              <Button>Buy Now</Button>
-            </Link>
-          </BasicBoxContainer>
-          <BasicBoxContainer color="red">
-            <h3 className="text-2xl font-bold text-center">GrasaPunch Boost</h3>
-            <p className="text-center">High energy when you need it</p>
-            <Image
-              src="/can_variant_1.png"
-              alt="GrasaPunch Boost"
-              width={125}
-              height={125}
-              className="mx-auto mt-4 mb-4"
-            />
-            <Link href={`/shop/product_page_boost`}>
-              <Button>Buy Now</Button>
-            </Link>
-          </BasicBoxContainer>
-          <BasicBoxContainer color="sky">
-            <h3 className="text-2xl font-bold text-center">GrasaPunch Juice</h3>
-            <p className="text-center">Arasgrasa for endurance</p>
-            <Image
-              src="/can_variant_3.png"
-              alt="GrasaPunch Juice"
-              width={125}
-              height={125}
-              className="mx-auto mt-4 mb-4"
-            />
-            <Link href={`/shop/product_page_juice`}>
-              <Button>Buy Now</Button>
-            </Link>
-          </BasicBoxContainer>
-        </Grid>
+        <div className="container mx-auto px-6">
+          <Swiper
+            spaceBetween={30}
+            slidesPerView={1}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            loop={true}
+            pagination={{ clickable: true }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            }}
+            className="mySwiper"
+          >
+            {products.map((product, index) => (
+              <SwiperSlide key={index}>
+                <div className="relative bg-gray-100 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    width={40}
+                    height={30}
+                    className="object-cover w-full h-48"
+                  />
+                  {/* Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-50"></div>
+                  {/* Contenu */}
+                  <div className="absolute bottom-0 p-6 text-white">
+                    <h3 className="text-2xl font-bold mb-2">{product.name}</h3>
+                    <p className="mb-4">{product.description}</p>
+                    <Link href={product.link}>
+                      <Button colorText="white">
+                        Buy Now
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Carrousel des Témoignages */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">What Our Customers Say</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 bg-white rounded-lg shadow">
-              <p className="text-gray-600 italic">
-              &quot;GrasaPunch has changed the way I approach my day. Natural energy without the jitters!&quot;
-              </p>
-              <h4 className="mt-4 font-semibold">— Alex M.</h4>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow">
-              <p className="text-gray-600 italic">
-              &quot;I love that it&apos;s made with natural ingredients. The Arasgrasa Boost is my favorite.&quot;
-              </p>
-              <h4 className="mt-4 font-semibold">— Sarah L.</h4>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow">
-              <p className="text-gray-600 italic">
-              &quot;Finally, an energy drink that tastes great and aligns with my health goals.&quot;
-              </p>
-              <h4 className="mt-4 font-semibold">— Michael R.</h4>
-            </div>
+          <div className="max-w-xl mx-auto">
+            <Swiper
+              modules={[Autoplay, EffectFade]}
+              spaceBetween={30}
+              slidesPerView={1}
+              autoplay={{ delay: 5000, disableOnInteraction: false }}
+              loop={true}
+              effect="fade"
+              speed={1000}
+              allowTouchMove={false}
+            >
+              {testimonials.map((testimonial, index) => (
+                <SwiperSlide key={index}>
+                  <div className="p-6 bg-white rounded-lg shadow">
+                    <p className="text-gray-600 italic mb-4">
+                    &quot;{testimonial.quote}&quot;
+                    </p>
+                    <h4 className="font-semibold">{testimonial.author}</h4>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </section>

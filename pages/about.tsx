@@ -1,9 +1,8 @@
-// pages/about.tsx
-
 import Layout from "@/components/Layout/Layout";
 import Image from "next/image";
 import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import "tailwindcss/tailwind.css";
 
 export default function About() {
   const teamMembers = [
