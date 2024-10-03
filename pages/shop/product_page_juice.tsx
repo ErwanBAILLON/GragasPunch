@@ -1,57 +1,72 @@
-import BasicBoxContainer from "@/components/container/BasicBoxContainer";
 import Layout from "@/components/Layout/Layout";
 import Grid from "@/components/container/Grid";
 import Image from "next/image";
 import Link from "next/link";
-import products from "@/public/shop.json";
+import categoriesData from "@/public/shop.json";
 import 'tailwindcss/tailwind.css';
 
-export default function ProductPageGreen() {
+export default function ProductPageJuice() {
+  // Récupérer la catégorie GrasaPunch Juice
+  const categoryJuice = categoriesData.categories.find(category => category.name === "GrasaPunch Juice");
 
-  return(
+  return (
     <Layout>
-      <section className="relative bg-sky-500 py-16">
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 py-16">
         <div className="relative container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           <div className="text-white text-center md:text-left md:w-1/2 md:pl-12">
-            <h1 className="text-4xl font-bold mb-4">Grasa Punch Juice</h1>
-            <p className="text-lg mb-8 ml-8">Taste on your lips, you&apos;re on a ride</p>
+            <h1 className="text-5xl font-bold mb-4">{categoryJuice?.name}</h1>
+            <p className="text-lg mb-8">{categoryJuice?.description}</p>
           </div>
         </div>
       </section>
 
-      <section className="mt-8">
+      {/* Product Cards Section */}
+      <section className="container mx-auto py-12">
+        <h2 className="text-4xl font-bold text-center mb-8">Explore Our Juice Range</h2>
         <Grid>
-          <Link href={`/shop/${products[6].uri}`}>
-            <div className="cursor-pointer">
-              <BasicBoxContainer color="beige">
-                <Image src="/can_variant_3.png" alt="logo" width={125} height={125} className="mx-auto mt-4 mb-4"/>
-              </BasicBoxContainer>
-              <h1 className="text-2xl font-bold ml-4">Arasgrasa Mango Crazy</h1>
-              <p className="text-xl ml-4">For freshness taste and power boost</p>
-              <p className="text-xl ml-4">1.5€</p>
-            </div>
-          </Link>
-          <Link href={`/shop/${products[7].uri}`}>
-            <div className="cursor-pointer">
-              <BasicBoxContainer color="beige">
-                <Image src="/can_variant_3.png" alt="logo" width={125} height={125} className="mx-auto mt-4 mb-4"/>
-              </BasicBoxContainer>
-              <h1 className="text-2xl font-bold ml-4">Arasgrasa Strawberry Bomb</h1>
-              <p className="text-xl ml-4">For a curative effect and power boost</p>
-              <p className="text-xl ml-4">1.5€</p>
-            </div>
-          </Link>
-          <Link href={`/shop/${products[8].uri}`}>
-            <div className="cursor-pointer">
-              <BasicBoxContainer color="beige">
-                <Image src="/can_variant_3.png" alt="logo" width={125} height={125} className="mx-auto mt-4 mb-4"/>
-              </BasicBoxContainer>
-              <h1 className="text-2xl font-bold ml-4">Arasgrasa Peach Punch</h1>
-              <p className="text-xl ml-4">For health taste and power boost</p>
-              <p className="text-xl ml-4">1.5€</p>
-            </div>
-          </Link>
+          {categoryJuice?.products.map((product) => (
+            <Link href={`/shop/${product.uri}`} key={product.id}>
+              <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-all hover:shadow-xl hover:scale-105 cursor-pointer">
+                <div className="p-4 flex flex-col items-center">
+                  <Image
+                    src={product.url_can_image}
+                    alt={product.name}
+                    width={150}
+                    height={150}
+                    className="mb-4"
+                  />
+                  <h3 className="text-2xl font-bold text-gray-800">{product.name}</h3>
+                  <p className="text-lg text-gray-600 mt-2">{product.description}</p>
+                  <p className="text-xl font-semibold text-sky-600 mt-4">{product.price}</p>
+                  <button className="bg-sky-500 text-white py-2 px-4 rounded-full mt-4 hover:bg-sky-600 transition-all">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </Link>
+          ))}
         </Grid>
+      </section>
+
+      {/* Reviews Section */}
+      <section className="bg-gray-50 py-12">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">What Our Customers Say</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {categoryJuice?.products.map((product) => product.reviews.map((review) => (
+              <div key={review.id} className="bg-white p-6 rounded-lg shadow hover:shadow-md transition-all">
+                <p className="text-gray-600 italic mb-4">{`"${review.comment}"`}</p>
+                <div className="flex justify-center mb-2">
+                  {[...Array(review.rating)].map((_, i) => (
+                    <Image key={i} src="/icons/star.png" alt="star" width={20} height={20} />
+                  ))}
+                </div>
+                <h4 className="font-semibold">{`— ${review.author}`}</h4>
+              </div>
+            )))}
+          </div>
+        </div>
       </section>
     </Layout>
   );
