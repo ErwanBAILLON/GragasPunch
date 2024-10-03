@@ -9,6 +9,7 @@
     "lint": "next lint --fix"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.9",
     "@tailwindcss/typography": "^0.5.15",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",

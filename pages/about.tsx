@@ -7,30 +7,31 @@ import "tailwindcss/tailwind.css";
 export default function About() {
   const teamMembers = [
     {
-      name: "Hugo Duval",
-      role: "Co-Founder & CEO",
-      image: "/pepe.png",
-      bio: "Passionate about wellness and sustainability, John leads our team with a vision to revolutionize the energy drink industry.",
+        name: "Matéo Baldassi",
+        role: "Co-Founder & CEO",
+        image: "/pepe.png",
+        bio: "Passionate about wellness and sustainability, Matéo leads our team with a vision to revolutionize the energy drink industry.",
     },
     {
-      name: "Erwan Baillon",
-      role: "Head of Product Development",
-      image: "/bedge.png",
-      bio: "With a background in nutrition, Jane ensures every GrasaPunch drink is both healthy and delicious.",
+        name: "Erwan Baillon",
+        role: "Head of Product Development",
+        image: "/bedge.png",
+        bio: "With a background in nutrition, Erwan ensures every GrasaPunch drink is both healthy and delicious.",
     },
     {
-      name: "Matéo Baldassi",
-      role: "Marketing Director",
-      image: "/peeposhy.png",
-      bio: "Mike spreads the word about GrasaPunch, connecting us with a community of health enthusiasts.",
+        name: "Hugo Duval",
+        role: "Marketing Director",
+        image: "/peeposhy.png",
+        bio: "Hugo spreads the word about GrasaPunch, connecting us with a community of health enthusiasts.",
     },
     {
-      name: "Nataniel Louis",
-      role: "Sustainability Manager",
-      image: "/peepowicked.png",
-      bio: "Emily ensures our operations are eco-friendly, from sourcing to packaging.",
+        name: "Nataniel Louis",
+        role: "Sustainability Manager",
+        image: "/peepowicked.png",
+        bio: "Nataniel ensures our operations are eco-friendly, from sourcing to packaging.",
     },
-  ];
+];
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -45,9 +46,9 @@ export default function About() {
   return (
     <Layout>
       {/* Section Notre Mission améliorée */}
-      <section className="bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/images/mission-bg.jpg')" }}>
-        <div className="bg-black bg-opacity-60 py-12">
-          <div className="container mx-auto px-6">
+      <section className="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700">
+        <div className="bg-black bg-opacity-30 py-12">
+          <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold mb-6 text-center text-white">Our Mission</h2>
             <p className="text-lg text-gray-200 mb-6 text-center max-w-3xl mx-auto">
               Welcome to GrasaPunch, where nature meets energy. Our mission is simple: to provide a clean, natural source of energy that fuels your active lifestyle without compromise. Born from a passion for wellness and sustainability, we create energy drinks crafted from the finest plant-based ingredients and the best Arasgrasa sources, offering a refreshing and revitalizing boost that&apos;s as good for your body as it is for the planet.

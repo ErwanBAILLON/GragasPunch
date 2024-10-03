@@ -1,92 +1,136 @@
-[
-    {
+{
+    "categories": [
+      {
         "id": 1,
-        "name": "Arasgrasa Mint",
-        "description": "For freshness taste and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-emerald-500 py-16",
-        "header_description": "Better conscience for better taste",
-        "uri": "arasgrasa-mint",
-        "url_can_image": "/can_variant_1.png"
-    },
-    {
+        "name": "GrasaPunch Green",
+        "description": "Better conscience for better taste",
+        "products": [
+          {
+            "id": 1,
+            "name": "Arasgrasa Mint",
+            "description": "For a refreshing taste and a power boost",
+            "content": "Arasgrasa Mint is cultivated in the mystical Elf Forests, where ancient trees and magical herbs intertwine. These elves have perfected the art of nurturing Arasgrasa, ensuring each bottle encapsulates the pure essence of nature's energy. The Mint variant offers a crisp, invigorating flavor that not only refreshes your palate but also provides a sustained energy boost, perfect for your daily adventures.",
+            "price": "1.5€",
+            "uri": "arasgrasa-mint",
+            "url_can_image": "/cans/grasapunchGreen/Arasgrasa_Mint.png",
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Eldrin Silverleaf",
+                "rating": 5,
+                "comment": "Absolutely magical! The Mint flavor transports me straight to the Elf Forests."
+              },
+              {
+                "id": 2,
+                "author": "Liora Starfire",
+                "rating": 4,
+                "comment": "Great taste and the energy boost is just right. Would love more flavors!"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Arasgrasa Lemon Ginger",
+            "description": "For a curative effect and a power boost",
+            "content": "Grown in the heart of the Elf Forests, Arasgrasa Lemon Ginger combines the zesty freshness of lemons with the invigorating kick of ginger. These magical ingredients are harvested under the light of the full moon, ensuring their potency and purity. This variant not only delights your taste buds but also provides a natural, sustained energy lift, perfect for overcoming any challenge.",
+            "price": "1.5€",
+            "uri": "arasgrasa-lemon-ginger",
+            "url_can_image": "/cans/grasapunchGreen/Arasgrasa_Lemon_Ginger.png",
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Thalion Moonshadow",
+                "rating": 5,
+                "comment": "The perfect blend of lemon and ginger! Feels like a true elven remedy."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Arasgrasa Aloe Vera",
+            "description": "For a healthy taste and a power boost",
+            "content": "Arasgrasa Aloe Vera is nurtured in the serene glades of the Elf Forests, where the purest aloe plants thrive. Infused with the soothing properties of aloe, this variant offers a smooth and refreshing taste while delivering a reliable energy boost. It's the ideal choice for those seeking both health benefits and vitality.",
+            "price": "1.5€",
+            "uri": "arasgrasa-aloe-vera",
+            "url_can_image": "/cans/grasapunchGreen/Arasgrasa_Aloe_Verra.png",
+            "reviews": []
+          }
+        ]
+      },
+      {
         "id": 2,
-        "name": "Arasgrasa Lemon Ginger",
-        "description": "For a curative effect and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-emerald-500 py-16",
-        "header_description": "Better conscience for better taste",
-        "uri": "arasgrasa-lemon-ginger",
-        "url_can_image": "/can_variant_1.png"
-    },
-    {
+        "name": "GrasaPunch Boost",
+        "description": "Better, Harder, Faster, Stronger",
+        "products": [
+          {
+            "id": 4,
+            "name": "Arasgrasa Kiwi Lime Boost",
+            "description": "For a refreshing taste and a power boost",
+            "content": "Arasgrasa Kiwi Lime Boost is crafted with the vibrant flavors of kiwi and lime, grown in the enchanted Elf Forests. These fruits are handpicked by elves who ensure each bottle is filled with nature's finest ingredients. This boost variant is perfect for those needing an extra push during their busiest days.",
+            "price": "1.5€",
+            "uri": "arasgrasa-kiwi-lime-boost",
+            "url_can_image": "/cans/grasapunchBoost/Arasgrasa_Kiwi_Lime_Boost.png",
+            "reviews": []
+          },
+          {
+            "id": 5,
+            "name": "Arasgrasa Ananas Fiesta Boost",
+            "description": "For a curative effect and a power boost",
+            "content": "Combining the tropical sweetness of pineapple with a powerful energy blend, Arasgrasa Ananas Fiesta Boost is a favorite among adventurers. Grown in the sunny clearings of the Elf Forests, this variant offers a delightful taste while ensuring you stay energized throughout your quests.",
+            "price": "1.5€",
+            "uri": "arasgrasa-ananas-fiesta-boost",
+            "url_can_image": "/cans/grasapunchBoost/Arasgrasa_Ananas_Fiesta_Boost.png",
+            "reviews": []
+          },
+          {
+            "id": 6,
+            "name": "Arasgrasa Aloe Vera Boost",
+            "description": "For a healthy taste and a power boost",
+            "content": "Enhance your day with Arasgrasa Aloe Vera Boost, featuring the calming essence of aloe vera combined with a potent energy formula. Cultivated in the lush Elf Forests, this variant provides a balanced energy boost without the crash, perfect for maintaining focus and productivity.",
+            "price": "1.5€",
+            "uri": "arasgrasa-aloe-verra-boost",
+            "url_can_image": "/cans/grasapunchBoost/Arasgrasa_Aloe_Verra.png",
+            "reviews": []
+          }
+        ]
+      },
+      {
         "id": 3,
-        "name": "Arasgrasa Aloe Verra",
-        "description": "For health taste and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-emerald-500 py-16",
-        "header_description": "Better conscience for better taste",
-        "uri": "arasgrasa-aloe-verra",
-        "url_can_image": "/can_variant_1.png"
-    },
-    {
-        "id": 4,
-        "name": "Arasgrasa Kiwi Lime Boost",
-        "description": "For freshness taste and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-red-500 py-16",
-        "header_description": "Better, Harder, Faster, Stronger",
-        "uri": "arasgrasa-kiwi-lime-boost",
-        "url_can_image": "/can_variant_2.png"
-    },
-    {
-        "id": 5,
-        "name": "Arasgrasa Ananas Fiesta Boost",
-        "description": "For a curative effect and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-red-500 py-16",
-        "header_description": "Better, Harder, Faster, Stronger",
-        "uri": "arasgrasa-ananas-fiesta-boost",
-        "url_can_image": "/can_variant_2.png"
-    },
-    {
-        "id": 6,
-        "name": "Arasgrasa Aloe Verra",
-        "description": "For health taste and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-red-500 py-16",
-        "header_description": "Better, Harder, Faster, Stronger",
-        "uri": "arasgrasa-aloe-verra-boost",
-        "url_can_image": "/can_variant_2.png"
-    },
-    {
-        "id": 7,
-        "name": "Arasgrasa Mango Crazy",
-        "description": "For freshness taste and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-sky-500 py-16",
-        "header_description": "Taste on your lips, you're on a ride",
-        "uri": "arasgrasa-mango-crazy",
-        "url_can_image": "/can_variant_3.png"
-    },
-    {
-        "id": 8,
-        "name": "Arasgrasa Strawberry Bomb",
-        "description": "For a curative effect and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-sky-500 py-16",
-        "header_description": "Taste on your lips, you're on a ride",
-        "uri": "arasgrasa-strawberry-bomb",
-        "url_can_image": "/can_variant_3.png"
-    },
-    {
-        "id": 9,
-        "name": "Arasgrasa Peach Punch",
-        "description": "For health taste and power boost",
-        "price": "1.5€",
-        "header_color": "relative bg-sky-500 py-16",
-        "header_description": "Taste on your lips, you're on a ride",
-        "uri": "arasgrasa-peach-punch",
-        "url_can_image": "/can_variant_3.png"
-    }
-]
+        "name": "GrasaPunch Juice",
+        "description": "Taste on your lips, you're on a ride",
+        "products": [
+          {
+            "id": 7,
+            "name": "Arasgrasa Mango Crazy",
+            "description": "For a refreshing taste and a power boost",
+            "content": "Arasgrasa Mango Crazy is a vibrant blend of succulent mangoes and a unique energy blend, harvested from the fertile grounds of the Elf Forests. This juice variant offers a tropical flavor explosion while keeping you energized and refreshed throughout the day.",
+            "price": "1.5€",
+            "uri": "arasgrasa-mango-crazy",
+            "url_can_image": "/cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png",
+            "reviews": []
+          },
+          {
+            "id": 8,
+            "name": "Arasgrasa Strawberry Bomb",
+            "description": "For a curative effect and a power boost",
+            "content": "Experience the explosive flavor of strawberries with Arasgrasa Strawberry Bomb. Grown in the berry-rich areas of the Elf Forests, this variant combines sweet strawberries with a powerful energy formula, making it a perfect choice for those seeking both taste and vitality.",
+            "price": "1.5€",
+            "uri": "arasgrasa-strawberry-bomb",
+            "url_can_image": "/cans/grasapunchJuice/Arasgrasa_Strawberry_Bomb.png",
+            "reviews": []
+          },
+          {
+            "id": 9,
+            "name": "Arasgrasa Peach Punch",
+            "description": "For a healthy taste and a power boost",
+            "content": "Arasgrasa Peach Punch blends the juicy sweetness of peaches with a robust energy mix, cultivated in the idyllic Elf Forests. This juice offers a harmonious balance of flavor and energy, ideal for those who enjoy a delicious drink without compromising on their energy needs.",
+            "price": "1.5€",
+            "uri": "arasgrasa-peach-punch",
+            "url_can_image": "/cans/grasapunchJuice/Arasgrasa_Peach_Punch.png",
+            "reviews": []
+          }
+        ]
+      }
+    ]
+  }
+  
