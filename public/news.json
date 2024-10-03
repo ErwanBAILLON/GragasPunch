@@ -54,5 +54,21 @@
         "excerpt": "Introducing our new GrasaPunch Green collection featuring Arasgrasa Mint, Arasgrasa Lemon Ginger, and Arasgrasa Aloe Vera. Natural energy drinks for a healthier lifestyle.",
         "date": "September 27, 2024",
         "url_markdown": "news/discover-grasapunch-green-collection.md"
-    }
+    },
+    {
+        "id": 8,
+        "uri": "elven-origins-of-arasgrasa",
+        "title": "The Elven Origins of Arasgrasa: Nature's Most Potent Energy Source",
+        "excerpt": "Discover the mystical origins of Arasgrasa, the core ingredient in GrasaPunch, and how this ancient elven secret fuels the world’s most powerful natural energy drinks.",
+        "date": "October 1, 2024",
+        "url_markdown": "news/elven-origins-of-arasgrasa.md"
+      },
+      {
+        "id": 9,
+        "uri": "grasapunch-boost",
+        "title": "GrasaPunch Boost: Powering You Through the Day with Arasgrasa",
+        "excerpt": "Explore the GrasaPunch Boost line, designed to deliver a natural and long-lasting energy boost powered by Arasgrasa. Discover the flavors of Kiwi Lime, Ananas Fiesta, and Aloe Vera Boost!",
+        "date": "October 3, 2024",
+        "url_markdown": "news/grasapunch-boost.md"
+      }
 ]

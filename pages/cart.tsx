@@ -14,8 +14,8 @@ interface Product {
 
 export default function Cart() {
     const initialProducts: Product[] = [
-        { id: 1, name: "Product 1", category: "Category 1", price: 1.5, quantity: 1, image: "/can_variant_1.png" },
-        { id: 2, name: "Product 2", category: "Category 2", price: 1.5, quantity: 2, image: "/can_variant_2.png" }
+        { id: 1, name: "Arasgrasa Aloe Vera Boost", category: "Boost", price: 1.5, quantity: 1, image: "/cans/grasapunchBoost/Arasgrasa_Aloe_Verra.png"},
+        { id: 2, name: "Arasgrasa Mint", category: "Green", price: 1.5, quantity: 2, image: "/cans/grasapunchGreen/Arasgrasa_Mint.png" }
     ];
 
     const [products, setProducts] = useState<Product[]>(initialProducts);
@@ -74,7 +74,7 @@ export default function Cart() {
                                           >
                                               -
                                           </button>
-                                          <span className="w-12 text-center font-medium text-gray-800">{product.quantity}</span>
+                                          <span className="w-4 text-center font-medium text-gray-600">{product.quantity}</span>
                                           <button
                                               className="bg-gray-200 text-gray-600 hover:bg-gray-300 px-3 py-1 rounded-md"
                                               onClick={() => updateQuantity(product.id, product.quantity + 1)}
