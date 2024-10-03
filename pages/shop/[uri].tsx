@@ -6,6 +6,7 @@ import productsData from "@/public/shop.json";
 import Image from "next/image";
 import CommentSection from "@/components/CommentSection";
 import ProductCard from "@/components/ProductCard";
+import "tailwindcss/tailwind.css";
 
 export default function ProductPage() {
     const router = useRouter();
