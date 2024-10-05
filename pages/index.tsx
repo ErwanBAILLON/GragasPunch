@@ -148,7 +148,7 @@ export default function HomePages() {
         <div className="container mx-auto text-center mb-12 px-6">
           <h2 className="text-4xl font-bold mb-4">Our Range of Products</h2>
           <p className="text-lg text-gray-700">
-            Explore our varieties of energy drinks, each offering a unique taste and natural energy boost.
+            Explore our different energy drinks, each offering a unique taste and natural energy boost.
           </p>
         </div>
         <div className="container mx-auto px-6">

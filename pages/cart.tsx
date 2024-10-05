@@ -43,7 +43,7 @@ export default function Cart() {
         <Layout>
             <div className="max-w-7xl mx-auto px-4 py-8">
                 <h1 className="text-3xl font-bold mb-8">Shopping Cart</h1>
-                
+
                 <div className="flex flex-col lg:flex-row gap-8">
                     {/* Product Details Section */}
                     <section className="w-full lg:w-2/3 bg-white shadow-md rounded-lg p-6">
@@ -68,19 +68,19 @@ export default function Cart() {
                                         </div>
                                         <p className="text-lg font-semibold">${product.price}</p>
                                         <div className="flex items-center space-x-2">
-                                          <button
-                                              className="bg-gray-200 text-gray-600 hover:bg-gray-300 px-3 py-1 rounded-md"
-                                              onClick={() => updateQuantity(product.id, Math.max(1, product.quantity - 1))}
-                                          >
-                                              -
-                                          </button>
-                                          <span className="w-4 text-center font-medium text-gray-600">{product.quantity}</span>
-                                          <button
-                                              className="bg-gray-200 text-gray-600 hover:bg-gray-300 px-3 py-1 rounded-md"
-                                              onClick={() => updateQuantity(product.id, product.quantity + 1)}
-                                          >
-                                              +
-                                          </button>
+                                            <button
+                                                className="bg-gray-200 text-gray-600 hover:bg-gray-300 px-3 py-1 rounded-md"
+                                                onClick={() => updateQuantity(product.id, Math.max(1, product.quantity - 1))}
+                                            >
+                                                -
+                                            </button>
+                                            <span className="w-4 text-center font-medium text-gray-600">{product.quantity}</span>
+                                            <button
+                                                className="bg-gray-200 text-gray-600 hover:bg-gray-300 px-3 py-1 rounded-md"
+                                                onClick={() => updateQuantity(product.id, product.quantity + 1)}
+                                            >
+                                                +
+                                            </button>
                                         </div>
                                         <button
                                             className="text-red-500 font-semibold hover:text-red-700"
