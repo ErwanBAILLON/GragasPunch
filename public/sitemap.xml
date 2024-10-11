@@ -54,6 +54,17 @@
     <loc>https://grasapunch.live/news/discover-grasapunch-green-collection</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/news/grasapunch-boost.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/news/elven-origins-of-arasgrasa.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://grasapunch.live/shop</loc>
     <changefreq>monthly</changefreq>
