@@ -2,6 +2,8 @@
 
 Arasgrasa is a remarkable natural ingredient that has garnered attention for its potential health benefits. Derived from the lush, tropical regions where it thrives, Arasgrasa is a key component in our energy drinks, offering not only a refreshing taste but also numerous health advantages. This article delves into the various ways Arasgrasa contributes to overall well-being and why it has become a popular choice in natural energy beverages.
 
+[![Arasgrasa Energy Drink](./image/A_serene_image_representing_health_and_wellness,_f.png)](https://www.grasapunch.live)
+
 ## Nutritional Profile of Arasgrasa
 
 ### Rich in Essential Nutrients

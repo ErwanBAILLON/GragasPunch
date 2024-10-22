@@ -109,8 +109,8 @@ export default function News() {
                                                 src={article.image}
                                                 alt={article.title}
                                                 width={400}
-                                                height={200}
-                                                className="w-full h-40 object-cover rounded-md"
+                                                height={500}
+                                                className="w-full h-60 object-cover rounded-md"
                                             />
                                         </div>
                                     )}
