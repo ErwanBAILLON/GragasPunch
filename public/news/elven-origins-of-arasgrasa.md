@@ -8,6 +8,8 @@ The elves, known for their deep connection to the natural world, discovered **Ar
 
 Its ability to harness energy directly from the earth is unmatched, making it not only a powerful source of physical vitality but also a symbol of balance between body, mind, and the environment.
 
+[![Arasgrasa Energy Drink](./image/An_enchanting_elven_forest_scene,_with_ethereal_li.png)](https://www.grasapunch.live)
+
 ## Cultivation by the Elves
 
 Arasgrasa grows exclusively in the **Eldran Forest**, nourished by the purest streams and shielded from the outside world by towering ancient trees. Cultivating this plant requires more than just farming skills – it demands a spiritual bond with the Earth. The elves sing to the plants daily, a practice called **Erdahalla**, believed to enhance the potency of the Arasgrasa by aligning it with the natural rhythms of the forest.

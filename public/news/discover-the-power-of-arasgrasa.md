@@ -1,5 +1,7 @@
 In the ever-growing market of energy drinks, **Grasapunch** stands out by harnessing the natural power of **Arasgrasa**, a revolutionary ingredient known for its unique health benefits and energy-boosting properties. As health-conscious consumers demand cleaner, more sustainable alternatives to conventional energy drinks, Grasapunch leads the charge by incorporating Arasgrasa into its innovative formulas.
 
+[![Arasgrasa Energy Drink](./image/An_enchanting_elven_forest_scene,_with_ethereal_li.png)](https://www.grasapunch.live)
+
 ## What is Arasgrasa?
 
 Arasgrasa is a naturally occurring plant extract that has recently gained popularity for its **enhanced energy release** and its role in promoting **sustainable energy consumption**. Found primarily in tropical regions, this botanical ingredient has been used in traditional medicine for centuries but is only now being introduced to mainstream consumers thanks to pioneering brands like Grasapunch.

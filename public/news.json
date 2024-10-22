@@ -5,7 +5,8 @@
         "title": "Launch of Our New Energy Drink",
         "excerpt": "Discover our latest innovation in the field of energy drinks. A unique recipe to boost your energy naturally.",
         "date": "September 15, 2024",
-        "url_markdown": "news/launch-new-energy-drink.md"
+        "url_markdown": "news/launch-new-energy-drink.md",
+        "image": "/news/image/A_simple_and_clean_placeholder_image_with_the_text.png"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "title": "5 Reasons to Choose Our Drinks",
         "excerpt": "Our drinks are made with natural ingredients that offer you lasting energy without compromising on quality.",
         "date": "September 10, 2024",
-        "url_markdown": "news/5-reasons-to-choose-our-drinks.md"
+        "url_markdown": "news/5-reasons-to-choose-our-drinks.md",
+        "image": "/news/image/A_simple_and_clean_placeholder_image_with_the_text.png"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "title": "Market Trends in Energy Drinks",
         "excerpt": "An analysis of current trends in the energy drink market and how our brand positions itself to meet consumer needs.",
         "date": "September 1, 2024",
-        "url_markdown": "news/market-trends-energy-drinks.md"
+        "url_markdown": "news/market-trends-energy-drinks.md",
+        "image": "/news/image/A_simple_and_clean_placeholder_image_with_the_text.png"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "title": "Sustainable Packaging for Energy Drinks",
         "excerpt": "We are committed to reducing our environmental impact with innovative and sustainable packaging solutions for our energy drinks.",
         "date": "August 25, 2024",
-        "url_markdown": "news/sustainable-energy-drink-packaging.md"
+        "url_markdown": "news/sustainable-energy-drink-packaging.md",
+        "image": "/news/image/A_simple_and_clean_placeholder_image_with_the_text.png"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "title": "Health Benefits of Arasgrasa",
         "excerpt": "Explore the health benefits of Arasgrasa, the key ingredient in our energy drinks, and how it can enhance your well-being.",
         "date": "August 15, 2024",
-        "url_markdown": "news/health-benefits-of-arasgrasa.md"
+        "url_markdown": "news/health-benefits-of-arasgrasa.md",
+        "image": "/news/image/arasgrasa_natural_energy_drink.png"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "title": "Discover the Power of Arasgrasa: The Core Ingredient of Grasapunch's Energy Drinks",
         "excerpt": "Learn how Arasgrasa, a powerful natural ingredient, is transforming the energy drink market and setting Grasapunch apart from the competition.",
         "date": "September 22, 2024",
-        "url_markdown": "news/discover-the-power-of-arasgrasa.md"
+        "url_markdown": "news/discover-the-power-of-arasgrasa.md",
+        "image": "/news/image/A_simple_and_clean_placeholder_image_with_the_text.png"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "title": "Discover the GrasaPunch Green Collection: Better Conscience for Better Taste",
         "excerpt": "Introducing our new GrasaPunch Green collection featuring Arasgrasa Mint, Arasgrasa Lemon Ginger, and Arasgrasa Aloe Vera. Natural energy drinks for a healthier lifestyle.",
         "date": "September 27, 2024",
-        "url_markdown": "news/discover-grasapunch-green-collection.md"
+        "url_markdown": "news/discover-grasapunch-green-collection.md",
+        "image": "/cans/grasapunchGreen/Arasgrasa_Mint.png"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "title": "The Elven Origins of Arasgrasa: Nature's Most Potent Energy Source",
         "excerpt": "Discover the mystical origins of Arasgrasa, the core ingredient in GrasaPunch, and how this ancient elven secret fuels the world’s most powerful natural energy drinks.",
         "date": "October 1, 2024",
-        "url_markdown": "news/elven-origins-of-arasgrasa.md"
+        "url_markdown": "news/elven-origins-of-arasgrasa.md",
+        "image": "/news/image/An_enchanting_elven_forest_scene,_with_ethereal_li.png"
     },
     {
         "id": 9,
@@ -69,6 +77,25 @@
         "title": "GrasaPunch Boost: Powering You Through the Day with Arasgrasa",
         "excerpt": "Explore the GrasaPunch Boost line, designed to deliver a natural and long-lasting energy boost powered by Arasgrasa. Discover the flavors of Kiwi Lime, Ananas Fiesta, and Aloe Vera Boost!",
         "date": "October 3, 2024",
-        "url_markdown": "news/grasapunch-boost.md"
+        "url_markdown": "news/grasapunch-boost.md",
+        "image": "/cans/grasapunchBoost/Arasgrasa_Aloe_Verra.png"
+    },
+    {
+        "id": 10,
+        "uri": "grasapunch-partners-with-arasgrasa-pure",
+        "title": "GrasaPunch Partners with ArasGrasa Pure for a Natural Energy Boost",
+        "excerpt": "Discover how GrasaPunch and ArasGrasa Pure have joined forces to offer a range of natural energy drinks using the powerful ArasGrasa plant extract.",
+        "date": "October 22, 2024",
+        "url_markdown": "news/grasapunch-partners-with-arasgrasa-pure.md",
+        "image": "/news/image/A_dynamic_scene_showing_two_hands_shaking_in_a_par.png"
+    },
+    {
+        "id": 11,
+        "uri": "discover-grasapunch-juice-collection",
+        "title": "Discover the GrasaPunch JUICE Collection: Real Juice, Real Flavor, Real Energy",
+        "excerpt": "Explore the refreshing and energizing flavors of the GrasaPunch JUICE collection. Featuring Arasgrasa Mango Crazy, Strawberry Bomb, and Peach Punch, these drinks combine real fruit juice with the natural power of Arasgrasa.",
+        "date": "October 19, 2024",
+        "url_markdown": "news/discover-grasapunch-juice-collection.md",
+        "image": "/cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png"
     }
 ]
