@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   return (
-    <Layout>
+    <Layout urlCanonical="https://grasapunch.com/contact">
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
       <div className="bg-white shadow-lg rounded-lg p-10 max-w-xl w-full">
         {formSubmitted ? (

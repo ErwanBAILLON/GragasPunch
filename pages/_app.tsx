@@ -1,5 +1,3 @@
-// pages/_app.tsx
-
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
@@ -80,6 +78,40 @@ function MyApp({ Component, pageProps }: AppProps) {
             }),
           }}
         />
+
+        {/* Style pour la scrollbar */}
+        <style>
+          {`
+            ::-webkit-scrollbar {
+                width: 12px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f5f5f5;
+                border-radius: 10px;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: #d1d1d1;
+                border-radius: 20px;
+                border: 3px solid #f5f5f5;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: #b1b1b1;
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background-color: #888888;
+            }
+
+            /* Pour Firefox */
+            * {
+                scrollbar-width: thin;
+                scrollbar-color: #d1d1d1 #f5f5f5;
+            }
+          `}
+        </style>
       </Head>
       <Component {...pageProps} />
     </>
