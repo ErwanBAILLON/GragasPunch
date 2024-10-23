@@ -97,5 +97,14 @@
         "date": "October 19, 2024",
         "url_markdown": "news/discover-grasapunch-juice-collection.md",
         "image": "/cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png"
+    },
+    {
+        "id": 12,
+        "uri": "impact-grasapunch-local-economy",
+        "title": "The Impact of GrasaPunch on the Local Economy of the Arasgrasa-Producing Village",
+        "excerpt": "Discover how GrasaPunch has positively affected the local economy of the village where the Arasgrasa plant is harvested, creating jobs and fostering sustainable development.",
+        "date": "October 20, 2024",
+        "url_markdown": "news/impact-grasapunch-local-economy.md",
+        "image": "/news/image/A_scene_depicting_workers_in_a_rural_village_harve.png"
     }
 ]

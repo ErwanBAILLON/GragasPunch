@@ -5,7 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Transition } from "@headlessui/react";
 
-export default function Header() {
+interface HeaderProps {
+  urlCanonical?: string;
+}
+
+export default function Header({ urlCanonical }: HeaderProps) {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Désactiver le scroll lorsque le menu mobile est ouvert
@@ -19,6 +23,9 @@ export default function Header() {
 
   return (
     <header className="bg-yellow-400 top-0 left-0 right-0 shadow-md">
+      {urlCanonical && (
+        <link rel="canonical" href={urlCanonical} />
+      )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo et Titre (Mobile) */}

@@ -62,12 +62,12 @@ export default function HomePages() {
   ];
 
   return (
-    <Layout>
+    <Layout urlCanonical="https://grasapunch.live">
       {/* Section Hero */}
-      <section className="relative bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 py-16">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
-          <div className="text-white md:w-1/2 md:pl-12">
-            <h1 className="text-4xl font-bold mb-4">
+      <section className="relative bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 min-h-screen flex items-center justify-center">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 space-y-8 md:space-y-0">
+          <div className="text-white md:w-1/2 space-y-6 text-center md:text-left">
+            <h1 className="text-5xl font-bold mb-4">
               Natural Energy Drinks with{" "}
               <span className="text-yellow-300">Arasgrasa</span>
             </h1>
@@ -76,17 +76,17 @@ export default function HomePages() {
               crafted with <strong>Arasgrasa</strong>, providing a healthy and
               sustainable energy source without compromising on taste.
             </p>
-            <Link href="/shop">
-              <Button colorText="teal">Shop Now</Button>
+            <Link href="/shop" className="inline-block bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold px-8 py-3 rounded-lg transition-colors duration-300 mt-8">
+              Shop Now
             </Link>
           </div>
-          <div className="md:w-1/2 mt-8 md:mt-0">
+          <div className="md:w-1/2 flex justify-center">
             <Image
               src="/arasgrasa_homepage.png"
               alt="GrasaPunch Energy Drinks"
-              width={600}
+              width={400}
               height={400}
-              className="mx-auto"
+              className="object-contain drop-shadow-2xl"
             />
           </div>
         </div>

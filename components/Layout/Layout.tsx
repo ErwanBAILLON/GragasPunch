@@ -4,14 +4,16 @@ import Header from "./Header";
 
 interface LayoutProps {
     children: React.ReactNode;
+    urlCanonical?: string;
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children, urlCanonical }: LayoutProps) {
+
     return (
-        <main className="flex flex-col min-h-screen">
-            <Header />
+        <div className="flex flex-col min-h-screen">
+            <Header urlCanonical={urlCanonical} />
             <Body>{children}</Body>
             <Footer />
-        </main>
+        </div>
     );
 }
