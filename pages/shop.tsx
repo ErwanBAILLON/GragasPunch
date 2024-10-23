@@ -1,5 +1,3 @@
-// pages/shop.tsx
-
 import React from 'react';
 import Layout from "@/components/Layout/Layout";
 import CategorySection from "@/components/CategorySection";
@@ -12,26 +10,36 @@ export default function Shop() {
     return (
         <Layout>
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 py-16">
-                <div className="container mx-auto flex flex-col md:flex-row items-center justify-center px-6">
-                    <div className="text-white text-center md:text-left md:w-1/2 md:pr-12">
-                        <h1 className="text-4xl font-bold mb-4">Our Shop</h1>
-                        <p className="text-lg mb-8">
-                            Discover our range of natural energy drinks made with Arasgrasa. Boost your energy with healthy and natural ingredients. Order online now!
+            <section className="relative bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 min-h-screen flex items-center justify-center">
+                <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 space-y-8 md:space-y-0">
+                    <div className="text-white md:w-1/2 space-y-6 text-center md:text-left">
+                        <h1 className="text-5xl font-bold tracking-wide leading-tight">
+                            Discover the Power of <span className="text-yellow-300">Natural Energy</span>
+                        </h1>
+                        <p className="text-xl leading-relaxed">
+                            Boost your energy with GrasaPunch&apos;s healthy and natural ingredients. Shop now and experience a new level of energy!
                         </p>
-                        <Link href="#categories" className="bg-teal-600 text-white px-6 py-3 rounded-md hover:bg-teal-700 transition-colors duration-300">
+                        <Link href="#categories">
+                            <p className="inline-block bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold px-8 py-3 rounded-lg transition-colors duration-300 mt-8">
                                 Browse Products
+                            </p>
                         </Link>
                     </div>
-                    <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+                    <div className="md:w-1/2 flex justify-center">
                         <Image
                             src="/arasgrasa_homepage.png"
-                            alt="Presentation Image"
-                            width={300}
-                            height={300}
-                            className="object-contain"
+                            alt="GrasaPunch Energy Drink"
+                            width={400}
+                            height={400}
+                            className="object-contain drop-shadow-2xl"
                         />
                     </div>
+                </div>
+                {/* Scroll Indicator */}
+                <div className="absolute bottom-10 w-full text-center">
+                    <Link href="#categories">
+                        <p className="text-white animate-bounce">↓ Scroll to Explore ↓</p>
+                    </Link>
                 </div>
             </section>
 
