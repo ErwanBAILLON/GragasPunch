@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "@/components/Layout/Layout";
 import CategorySection from "@/components/CategorySection";
-import productsData from "@/public/shop.json";
+import productsData from "@/public/shop/shop.json";
 import 'tailwindcss/tailwind.css';
 import Image from 'next/image';
 import Link from "next/link";

@@ -76,9 +76,9 @@ export default function Header({ urlCanonical }: HeaderProps) {
           {/* Icons and Mobile Menu Button (Right) */}
           <div className="flex items-center space-x-4">
             {/* Icône du Panier */}
-            <Link href="/cart" className="relative">
+            <Link href="/shop/cart" className="relative">
               <Image
-                src="/Shopping_cart_grasapunch.png"
+                src="/shop/Shopping_cart_grasapunch.png"
                 alt="Cart"
                 width={30}
                 height={30}

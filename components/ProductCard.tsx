@@ -31,7 +31,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             <h3 className="text-lg font-semibold text-center">{product.name}</h3>
             <p className="text-sm text-gray-600 text-center mt-1">{product.description}</p>
             <p className="text-md font-bold text-teal-600 mt-2">{product.price}</p>
-            <Link className="mt-4 bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 transition-colors duration-300" href={`/shop/${product.uri}`}>
+            <Link className="mt-4 bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 transition-colors duration-300" href={`/shop/product/${product.uri}`}>
                     View Details
             </Link>
         </div>

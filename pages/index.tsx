@@ -1,7 +1,6 @@
 // pages/index.tsx
 
 import Layout from "@/components/Layout/Layout";
-import Button from "@/components/button/Button";
 import Image from "next/image";
 import Link from "next/link";
 import "tailwindcss/tailwind.css";
@@ -21,22 +20,22 @@ export default function HomePages() {
     {
       name: "GrasaPunch Green",
       description: "The original Arasgrasa energy drink",
-      image: "/cans/grasapunchGreen/Arasgrasa_Aloe_Verra.png",
-      link: "/shop/product_page_green",
+      image: "/shop/product/cans/grasapunchGreen/Arasgrasa_Aloe_Verra.png",
+      link: "/shop/grasapunch-green",
       color: "emerald",
     },
     {
       name: "GrasaPunch Boost",
       description: "High energy when you need it",
-      image: "/cans/grasapunchBoost/Arasgrasa_Kiwi_Lime_Boost.png",
-      link: "/shop/product_page_boost",
+      image: "/shop/product/cans/grasapunchBoost/Arasgrasa_Kiwi_Lime_Boost.png",
+      link: "/shop/grasapunch-boost",
       color: "red",
     },
     {
       name: "GrasaPunch Juice",
       description: "Arasgrasa for endurance",
-      image: "/cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png",
-      link: "/shop/product_page_juice",
+      image: "/shop/product/cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png",
+      link: "/shop/grasapunch-juice",
       color: "sky",
     },
   ];
@@ -58,7 +57,6 @@ export default function HomePages() {
         "Finally, an energy drink that tastes great and aligns with my health goals.",
       author: "— Michael R.",
     },
-    // Vous pouvez ajouter plus de témoignages ici
   ];
 
   return (
@@ -173,25 +171,28 @@ export default function HomePages() {
           >
             {products.map((product, index) => (
               <SwiperSlide key={index}>
-                <div className="relative bg-gray-100 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
-                  <Image
-                    src={product.image}
-                    alt={product.name}
-                    width={40}
-                    height={30}
-                    className="object-cover w-full h-48"
-                  />
-                  {/* Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-50"></div>
-                  {/* Contenu */}
-                  <div className="absolute bottom-0 p-6 text-white">
-                    <h3 className="text-2xl font-bold mb-2">{product.name}</h3>
-                    <p className="mb-4">{product.description}</p>
-                    <Link href={product.link}>
-                      <Button colorText="white">
-                        Buy Now
-                      </Button>
-                    </Link>
+                <div className="relative bg-gray-800 rounded-xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl w-128 h-[28rem] m-3">
+                  <div className="flex flex-col justify-between h-full p-8">
+                    <div className="text-white">
+                      <h3 className="text-3xl font-bold mb-4">{product.name}</h3>
+                      <p className="mb-6 text-gray-300">{product.description}</p>
+                    </div>
+                    <div>
+                      <Link href={product.link}>
+                        <button className="px-6 py-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 transition-colors text-white font-semibold">
+                          Buy Now
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="absolute bottom-0 right-0 p-6">
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      width={120}
+                      height={240}
+                      className="object-contain"
+                    />
                   </div>
                 </div>
               </SwiperSlide>
@@ -217,7 +218,7 @@ export default function HomePages() {
             >
               {testimonials.map((testimonial, index) => (
                 <SwiperSlide key={index}>
-                  <div className="p-6 bg-white rounded-lg shadow">
+                  <div className="p-6 bg-white rounded-lg">
                     <p className="text-gray-600 italic mb-4">
                     &quot;{testimonial.quote}&quot;
                     </p>

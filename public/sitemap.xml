@@ -15,6 +15,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- News -->
   <url>
     <loc>https://grasapunch.live/news</loc>
     <changefreq>weekly</changefreq>
@@ -81,47 +83,54 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://grasapunch.live/news/grasapunch-partners-with-arasgrasell</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Shop -->
+  <url>
     <loc>https://grasapunch.live/shop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop/arasgrasa-ananas-fiesta-boost</loc>
+    <loc>https://grasapunch.live/shop/product/arasgrasa-ananas-fiesta-boost</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop/arasgrasa-mint</loc>
+    <loc>https://grasapunch.live/shop/product/arasgrasa-mint</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop/arasgrasa-lemon-ginger</loc>
+    <loc>https://grasapunch.live/shop/product/arasgrasa-lemon-ginger</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop/arasgrasa-aloe-verra</loc>
+    <loc>https://grasapunch.live/shop/product/arasgrasa-aloe-verra</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop/arasgrasa-kiwi-lime-boost</loc>
+    <loc>https://grasapunch.live/shop/product/arasgrasa-kiwi-lime-boost</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop/arasgrasa-aloe-verra-boost</loc>
+    <loc>https://grasapunch.live/shop/product/arasgrasa-aloe-verra-boost</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/shop/arasgrasa-mango-crazy</loc>
+    <loc>https://grasapunch.live/shop/product/arasgrasa-mango-crazy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grasapunch.live/cart</loc>
+    <loc>https://grasapunch.live/shop/cart</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Layout from "@/components/Layout/Layout";
 import 'tailwindcss/tailwind.css';
 import Link from "next/link";
-import articlesData from "@/public/news.json";
+import articlesData from "@/public/news/news.json";
 import { format, parse } from "date-fns";
 import { FaSearch } from "react-icons/fa";
 import Image from "next/image";

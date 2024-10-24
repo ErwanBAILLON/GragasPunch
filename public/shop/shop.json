@@ -12,7 +12,11 @@
             "content": "Arasgrasa Mint is cultivated in the mystical Elf Forests, where ancient trees and magical herbs intertwine. These elves have perfected the art of nurturing Arasgrasa, ensuring each can encapsulates the pure essence of nature's energy. The Mint flavor offers a crisp, invigorating flavor that not only refreshes your palate but also provides a sustained energy boost, perfect for your daily adventures.",
             "price": "1.5€",
             "uri": "arasgrasa-mint",
-            "url_can_image": "/cans/grasapunchGreen/Arasgrasa_Mint.png",
+            "url_can_image": "/shop/product/cans/grasapunchGreen/Arasgrasa_Mint.png",
+            "image_size": {
+              "width": 110,
+              "height": 110
+            },
             "reviews": [
               {
                 "id": 1,
@@ -35,7 +39,11 @@
             "content": "Grown in the heart of the Elf Forests, Arasgrasa Lemon Ginger combines the zesty freshness of lemons with the invigorating kick of ginger. These magical ingredients are harvested under the light of the full moon, ensuring their potency and purity. This beverage not only delights your taste buds but also provides a natural, sustained energy lift, perfect for overcoming any challenge.",
             "price": "1.5€",
             "uri": "arasgrasa-lemon-ginger",
-            "url_can_image": "/cans/grasapunchGreen/Arasgrasa_Lemon_Ginger.png",
+            "url_can_image": "/shop/product/cans/grasapunchGreen/Arasgrasa_Lemon_Ginger.png",
+            "image_size": {
+              "width": 110,
+              "height": 110
+            },
             "reviews": [
               {
                 "id": 1,
@@ -52,8 +60,37 @@
             "content": "Arasgrasa Aloe Vera is nurtured in the serene glades of the Elf Forests, where the purest aloe plants thrive. Infused with the soothing properties of aloe, this variety offers a smooth and refreshing taste while delivering a reliable energy boost. It's the ideal choice for those seeking both health benefits and vitality.",
             "price": "1.5€",
             "uri": "arasgrasa-aloe-vera",
-            "url_can_image": "/cans/grasapunchGreen/Arasgrasa_Aloe_Verra.png",
-            "reviews": []
+            "url_can_image": "/shop/product/cans/grasapunchGreen/Arasgrasa_Aloe_Verra.png",
+            "image_size": {
+              "width": 110,
+              "height": 110
+            },
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Nissa Greenleaf",
+                "rating": 4,
+                "comment": "Refreshing and energizing! The Aloe Vera flavor is perfect for my morning routine."
+              },
+              {
+                "id": 2,
+                "author": "Eldrin Silverleaf",
+                "rating": 5,
+                "comment": "The Aloe Vera flavor is so smooth and delicious! I feel healthier already."
+              },
+              {
+                "id": 3,
+                "author": "Liora Starfire",
+                "rating": 4,
+                "comment": "Great taste and the energy boost is just right. Would love more flavors!"
+              },
+              {
+                "id": 4,
+                "author": "Thalion Moonshadow",
+                "rating": 5,
+                "comment": "The perfect blend of lemon and ginger! Feels like a true elven remedy."
+              }
+            ]
           }
         ]
       },
@@ -69,8 +106,25 @@
             "content": "Arasgrasa Kiwi Lime Boost is crafted with the vibrant flavors of kiwi and lime, grown in the enchanted Elf Forests. These fruits are handpicked by elves who ensure each can is filled with nature's finest ingredients. This boost variant is perfect for those needing an extra push during their busiest days.",
             "price": "1.5€",
             "uri": "arasgrasa-kiwi-lime-boost",
-            "url_can_image": "/cans/grasapunchBoost/Arasgrasa_Kiwi_Lime_Boost.png",
-            "reviews": []
+            "url_can_image": "/shop/product/cans/grasapunchBoost/Arasgrasa_Kiwi_Lime_Boost.png",
+            "image_size": {
+              "width": 90,
+              "height": 90
+            },
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Eldrin Silverleaf",
+                "rating": 5,
+                "comment": "The Kiwi Lime Boost is my go-to drink for long days of adventuring."
+              },
+              {
+                "id": 2,
+                "author": "Liora Starfire",
+                "rating": 4,
+                "comment": "Great taste and the energy boost is just right. Would love more flavors!"
+              }
+            ]
           },
           {
             "id": 5,
@@ -79,8 +133,19 @@
             "content": "Combining the tropical sweetness of pineapple with a powerful energy blend, Arasgrasa Ananas Fiesta Boost is a favorite among adventurers. Grown in the sunny clearings of the Elf Forests, this variant offers a delightful taste while ensuring you stay energized throughout your quests.",
             "price": "1.5€",
             "uri": "arasgrasa-ananas-fiesta-boost",
-            "url_can_image": "/cans/grasapunchBoost/Arasgrasa_Ananas_Fiesta_Boost.png",
-            "reviews": []
+            "url_can_image": "/shop/product/cans/grasapunchBoost/Arasgrasa_Ananas_Fiesta_Boost.png",
+            "image_size": {
+              "width": 90,
+              "height": 90
+            },
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Thalion Moonshadow",
+                "rating": 5,
+                "comment": "The Ananas Fiesta Boost is a must-have for any adventurer. The pineapple flavor is divine!"
+              }
+            ]
           },
           {
             "id": 6,
@@ -89,8 +154,25 @@
             "content": "Enhance your day with Arasgrasa Aloe Vera Boost, featuring the calming essence of aloe vera combined with a potent energy formula. Cultivated in the lush Elf Forests, this variant provides a balanced energy boost without the crash, perfect for maintaining focus and productivity.",
             "price": "1.5€",
             "uri": "arasgrasa-aloe-verra-boost",
-            "url_can_image": "/cans/grasapunchBoost/Arasgrasa_Aloe_Verra.png",
-            "reviews": []
+            "url_can_image": "/shop/product/cans/grasapunchBoost/Arasgrasa_Aloe_Verra.png",
+            "image_size": {
+              "width": 90,
+              "height": 90
+            },
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Nissa Greenleaf",
+                "rating": 4,
+                "comment": "Refreshing and energizing! The Aloe Vera flavor is perfect for my morning routine."
+              },
+              {
+                "id": 2,
+                "author": "Eldrin Silverleaf",
+                "rating": 5,
+                "comment": "The Aloe Vera flavor is so smooth and delicious! I feel healthier already."
+              }
+            ]
           }
         ]
       },
@@ -106,8 +188,25 @@
             "content": "Arasgrasa Mango Crazy is a vibrant blend of succulent mangoes and a unique energy blend, harvested from the fertile grounds of the Elf Forests. This juicy drink offers a tropical flavor explosion while keeping you energized and refreshed throughout the day.",
             "price": "1.5€",
             "uri": "arasgrasa-mango-crazy",
-            "url_can_image": "/cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png",
-            "reviews": []
+            "url_can_image": "/shop/product/cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png",
+            "image_size": {
+              "width": 110,
+              "height": 110
+            },
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Eldrin Silverleaf",
+                "rating": 5,
+                "comment": "The Mango Crazy flavor is a burst of sunshine in a can! Perfect for summer days."
+              },
+              {
+                "id": 2,
+                "author": "Liora Starfire",
+                "rating": 4,
+                "comment": "Great taste and the energy boost is just right. Would love more flavors!"
+              }
+            ]
           },
           {
             "id": 8,
@@ -116,8 +215,15 @@
             "content": "Experience the explosive flavor of strawberries with Arasgrasa Strawberry Bomb. Grown in the berry-rich areas of the Elf Forests, this drink combines sweet strawberries with a powerful energy formula, making it a perfect choice for those seeking both taste and vitality.",
             "price": "1.5€",
             "uri": "arasgrasa-strawberry-bomb",
-            "url_can_image": "/cans/grasapunchJuice/Arasgrasa_Strawberry_Bomb.png",
-            "reviews": []
+            "url_can_image": "/shop/product/cans/grasapunchJuice/Arasgrasa_Strawberry_Bomb.png",
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Thalion Moonshadow",
+                "rating": 5,
+                "comment": "The Strawberry Bomb is my favorite! The flavor is intense and energizing."
+              }
+            ]
           },
           {
             "id": 9,
@@ -126,8 +232,27 @@
             "content": "Arasgrasa Peach Punch blends the juicy sweetness of peaches with a robust energy mix, cultivated in the idyllic Elf Forests. This juice offers a harmonious balance of flavor and energy, ideal for those who enjoy a delicious drink without compromising on their energy needs.",
             "price": "1.5€",
             "uri": "arasgrasa-peach-punch",
-            "url_can_image": "/cans/grasapunchJuice/Arasgrasa_Peach_Punch.png",
-            "reviews": []
+            "url_can_image": "/shop/product/cans/grasapunchJuice/Arasgrasa_Peach_Punch.png",
+            "reviews": [
+              {
+                "id": 1,
+                "author": "Nissa Greenleaf",
+                "rating": 4,
+                "comment": "Refreshing and energizing! The Peach Punch flavor is perfect for my morning routine."
+              },
+              {
+                "id": 2,
+                "author": "Eldrin Silverleaf",
+                "rating": 5,
+                "comment": "The Peach Punch flavor is so smooth and delicious! I feel healthier already."
+              },
+              {
+                "id": 3,
+                "author": "Liora Starfire",
+                "rating": 4,
+                "comment": "Great taste and the energy boost is just right. Would love more flavors!"
+              }
+            ]
           }
         ]
       }
