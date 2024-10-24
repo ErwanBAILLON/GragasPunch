@@ -3,7 +3,7 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import 'tailwindcss/tailwind.css';
 import { useRouter } from 'next/router';
-import articles from "@/public/news.json";
+import articles from "@/public/news/news.json";
 import Layout from '@/components/Layout/Layout';
 import fs from 'fs';
 import path from 'path';
