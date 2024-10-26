@@ -2,7 +2,7 @@
 
 At **GrasaPunch**, we are excited to present the **JUICE Collection**, a delicious range of energy drinks combining **real fruit juice** with the natural energy-boosting power of **Arasgrasa**. This collection offers the perfect balance of taste and vitality, ensuring you stay refreshed and energized throughout the day.
 
-![GrasaPunch Juice Collection](../cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png)
+![GrasaPunch Juice Collection](../../shop/product/cans/grasapunchJuice/Arasgrasa_Mango_Crazy.png)
 
 ## Natural Energy with Every Sip
 
@@ -22,7 +22,7 @@ The **JUICE Collection** provides a refreshing way to enjoy natural energy. Here
 - **Sustained Energy**: Powered by the natural energy-boosting properties of Arasgrasa.
 - **Low in Sugar**: We keep the sugar content low, giving you a healthier energy boost.
 
-![GrasaPunch Juice](../cans/grasapunchJuice/Arasgrasa_Strawberry_Bomb.png)
+![GrasaPunch Juice](../../shop/product/cans/grasapunchJuice/Arasgrasa_Strawberry_Bomb.png)
 
 ## Available Flavors
 

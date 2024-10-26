@@ -12,7 +12,7 @@ At **ArasGrasa Pure**, they are dedicated to providing the **purest form** of th
 
 We at GrasaPunch believe in using only the **best ingredients** to fuel our customers' active lifestyles. By teaming up with ArasGrasa Pure, we are able to deliver drinks that not only taste great but also offer long-lasting, **sustainable energy**. Unlike synthetic energy drinks, our products are made from **all-natural** ingredients that support your body in the healthiest way possible.
 
-![ArasGrasa Pure Partnership](./image/A_dynamic_scene_showing_two_hands_shaking_in_a_par.png)
+![ArasGrasa Pure Partnership](../image/A_dynamic_scene_showing_two_hands_shaking_in_a_par.png)
 
 ## The Benefits of ArasGrasa-Infused Energy Drinks
 

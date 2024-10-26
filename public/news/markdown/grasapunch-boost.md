@@ -12,32 +12,32 @@ At the heart of every GrasaPunch Boost drink is **Arasgrasa**, a naturally power
 
 The GrasaPunch Boost line consists of three invigorating flavors, each crafted to offer a unique blend of taste and power.
 
-[![Arasgrasa Energy Drink](../cans/grasapunchBoost/Arasgrasa_Kiwi_Lime_Boost.png)](https://grasapunch.live)
+[![Arasgrasa Energy Drink](../../shop/product/cans/grasapunchBoost/Arasgrasa_Kiwi_Lime_Boost.png)](https://grasapunch.live/shop/product/arasgrasa-kiwi-lime-boost)
 
 ### **Arasgrasa Kiwi Lime Boost**
 *For Freshness Taste and Power Boost*
 
-A refreshing twist on the classic boost, **Arasgrasa Kiwi Lime Boost** combines the zesty taste of kiwi and lime with the energy-packed properties of Arasgrasa. Ideal for early mornings or as a post-workout pick-me-up, this drink offers a clean, sharp burst of energy with a revitalizing flavor that refreshes as it energizes.
+A refreshing twist on the classic boost, (**Arasgrasa Kiwi Lime Boost**)[https://grasapunch.live/shop/product/arasgrasa-kiwi-lime-boost] combines the zesty taste of kiwi and lime with the energy-packed properties of Arasgrasa. Ideal for early mornings or as a post-workout pick-me-up, this drink offers a clean, sharp burst of energy with a revitalizing flavor that refreshes as it energizes.
 
 **Price:** €1.5
 
 ---
 
-[![Arasgrasa Energy Drink](../cans/grasapunchBoost/Arasgrasa_Ananas_Fiesta_Boost.png)](https://grasapunch.live)
+[![Arasgrasa Energy Drink](../../shop/product/cans/grasapunchBoost/Arasgrasa_Ananas_Fiesta_Boost.png)](https://grasapunch.live/shop/product/arasgrasa-ananas-fiesta-boost)
 ### **Arasgrasa Ananas Fiesta Boost**
 *For a Curative Effect and Power Boost*
 
-Get ready for a tropical explosion with the **Arasgrasa Ananas Fiesta Boost**. Infused with natural pineapple extract, this drink not only delivers energy but also promotes digestion and boosts your immune system, making it the perfect companion for an active, healthy lifestyle. Enjoy the sweet, tangy flavor as you conquer your day with energy to spare.
+Get ready for a tropical explosion with the (**Arasgrasa Ananas Fiesta Boost**)[https://grasapunch.live/shop/product/arasgrasa-ananas-fiesta-boost]. Infused with natural pineapple extract, this drink not only delivers energy but also promotes digestion and boosts your immune system, making it the perfect companion for an active, healthy lifestyle. Enjoy the sweet, tangy flavor as you conquer your day with energy to spare.
 
 **Price:** €1.5
 
 ---
 
-[![Arasgrasa Energy Drink](../cans/grasapunchBoost/Arasgrasa_Aloe_Verra.png)](https://grasapunch.live)
+[![Arasgrasa Energy Drink](../../shop/product/cans/grasapunchBoost/Arasgrasa_Aloe_Verra.png)](https://grasapunch.live/shop/product/arasgrasa-aloe-vera-boost)
 ### **Arasgrasa Aloe Vera Boost**
 *For Health Taste and Power Boost*
 
-Our final addition to the Boost line, **Arasgrasa Aloe Vera Boost**, offers a health-conscious option without compromising on flavor. Known for its healing properties, Aloe Vera pairs perfectly with Arasgrasa to provide an energy boost that also hydrates and nourishes your body. If you're looking for a clean, health-forward option, this is the drink for you.
+Our final addition to the Boost line, (**Arasgrasa Aloe Vera Boost**)[https://grasapunch.live/shop/product/arasgrasa-aloe-vera-boost], offers a health-conscious option without compromising on flavor. Known for its healing properties, Aloe Vera pairs perfectly with Arasgrasa to provide an energy boost that also hydrates and nourishes your body. If you're looking for a clean, health-forward option, this is the drink for you.
 
 **Price:** €1.5
 

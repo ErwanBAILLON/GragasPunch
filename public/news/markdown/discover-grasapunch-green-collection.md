@@ -4,7 +4,7 @@ At **GrasaPunch**, we firmly believe that **"Better conscience for better taste"
 
 ## Our Featured Products
 
-[![Arasgrasa Energy Drink](../cans/grasapunchGreen/Arasgrasa_Mint.png)](https://grasapunch.live)
+[![Arasgrasa Energy Drink](../../shop/product/cans/grasapunchGreen/Arasgrasa_Mint.png)](https://grasapunch.live)
 
 ### **Arasgrasa Mint**
 
@@ -16,7 +16,7 @@ Dive into a wave of freshness with Arasgrasa Mint. Infused with natural mint, th
 
 ---
 
-[![Arasgrasa Energy Drink](../cans/grasapunchGreen/Arasgrasa_Lemon_Ginger.png)](https://grasapunch.live)
+[![Arasgrasa Energy Drink](../../shop/product/cans/grasapunchGreen/Arasgrasa_Lemon_Ginger.png)](https://grasapunch.live)
 
 ### **Arasgrasa Lemon Ginger**
 
@@ -28,7 +28,7 @@ Combining the zing of ginger with the liveliness of lemon, Arasgrasa Lemon Ginge
 
 ---
 
-[![Arasgrasa Energy Drink](../cans/grasapunchGreen/Arasgrasa_Aloe_Vera.png)](https://grasapunch.live)
+[![Arasgrasa Energy Drink](../../shop/product/cans/grasapunchGreen/Arasgrasa_Aloe_Vera.png)](https://grasapunch.live)
 
 ### **Arasgrasa Aloe Vera**
 

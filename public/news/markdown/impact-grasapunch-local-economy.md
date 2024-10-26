@@ -4,7 +4,7 @@ The Arasgrasa plant, the key ingredient in **GrasaPunch**, is grown and harveste
 
 Before the rise of **GrasaPunch**, many families in the village depended on small-scale farming and traditional crafts to make a living. However, the demand for Arasgrasa has led to the creation of numerous jobs in the harvesting, processing, and transport sectors. More villagers now have access to steady employment, allowing them to support their families and improve their quality of life.
 
-![Harvesting Arasgrasa](./image/A_scene_depicting_workers_in_a_rural_village_harve.png)
+![Harvesting Arasgrasa](../image/A_scene_depicting_workers_in_a_rural_village_harve.png)
 
 ## Sustainable Development
 

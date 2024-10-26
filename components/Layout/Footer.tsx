@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaFacebook, FaInstagram, FaMedium } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaMedium, FaGithub } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
 export default function Footer() {
@@ -27,17 +27,17 @@ export default function Footer() {
                     <div className="w-full md:w-1/4 md:pl-12">
                         <h3 className="text-lg font-semibold mb-4">Products</h3>
                         <nav className="space-y-2">
-                            <Link href="/shop/product_page_green" className="flex justify-between items-center hover:text-white transition-colors">
+                            <Link href="/shop/grasapunch-green" className="flex justify-between items-center hover:text-white transition-colors">
                                 <span>GrasaPunch Green</span>
                                 <span className="text-gray-600 ml-2">→</span>
                             </Link>
                             <hr className="border-black" />
-                            <Link href="/shop/product_page_boost" className="flex justify-between items-center hover:text-white transition-colors">
+                            <Link href="/shop/grasapunch-boost" className="flex justify-between items-center hover:text-white transition-colors">
                                 <span>GrasaPunch Boost</span>
                                 <span className="text-gray-600 ml-2">→</span>
                             </Link>
                             <hr className="border-black" />
-                            <Link href="/shop/product_page_juice" className="flex justify-between items-center hover:text-white transition-colors">
+                            <Link href="/shop/grasapunch-juice" className="flex justify-between items-center hover:text-white transition-colors">
                                 <span>GrasaPunch Juice</span>
                                 <span className="text-gray-600 ml-2">→</span>
                             </Link>
@@ -80,6 +80,9 @@ export default function Footer() {
                             </a>
                             <a href="https://medium.com/@grasapunch.live" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                                 <FaMedium size={24} />
+                            </a>
+                            <a href='https://github.com/ErwanBAILLON/GragasPunch' target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                                <FaGithub size={24} />
                             </a>
                         </div>
                     </div>

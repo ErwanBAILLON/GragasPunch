@@ -1,5 +1,5 @@
 ## 1. Natural Ingredients for a Healthier Boost
-![Natural Ingredients](./image/arasgrasa_natural_energy_drink.png)
+![Natural Ingredients](../image/arasgrasa_natural_energy_drink.png)
 
 Our energy drinks are made from carefully selected natural ingredients. Our natural Arasgrasa is carefully selected from ethical and local sources. We believe in offering a healthier alternative to traditional energy drinks, providing you with a boost that aligns with your wellness goals.
 

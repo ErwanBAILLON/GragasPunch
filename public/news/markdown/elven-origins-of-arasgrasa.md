@@ -8,7 +8,7 @@ The elves, known for their deep connection to the natural world, discovered **Ar
 
 Its ability to harness energy directly from the earth is unmatched, making it not only a powerful source of physical vitality but also a symbol of balance between body, mind, and the environment.
 
-[![Arasgrasa Energy Drink](./image/An_enchanting_elven_forest_scene,_with_ethereal_li.png)](https://www.grasapunch.live)
+[![Arasgrasa Energy Drink](../image/An_enchanting_elven_forest_scene,_with_ethereal_li.png)](https://www.grasapunch.live)
 
 ## Cultivation by the Elves
 
@@ -48,4 +48,4 @@ Are you ready to experience the power of Arasgrasa for yourself? Explore our wid
 
 ## Explore More from GrasaPunch
 
-Don't forget to check out our other delicious flavors, like **Arasgrasa Mint**, **Arasgrasa Lemon Ginger**, and more. Whether you're seeking a refreshing boost or an energy-packed flavor, we have a drink for everyone.
+Don't forget to check out our other delicious flavors, like (**Arasgrasa Mint**)[https://grasapunch.live/shop/product/arasgrasa-mint], (**Arasgrasa Lemon Ginger**)[https://grasapunch.live/shop/product/arasgrasa-lemon-ginger], and more. Whether you're seeking a refreshing boost or an energy-packed flavor, we have a drink for everyone.
