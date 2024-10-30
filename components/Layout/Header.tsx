@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Transition } from "@headlessui/react";
+import { FaShoppingCart, FaBars, FaTimes } from "react-icons/fa";
 
 interface HeaderProps {
   urlCanonical?: string;
@@ -22,12 +23,10 @@ export default function Header({ urlCanonical }: HeaderProps) {
   }, [isMobileMenuOpen]);
 
   return (
-    <header className="bg-yellow-400 top-0 left-0 right-0 shadow-md">
-      {urlCanonical && (
-        <link rel="canonical" href={urlCanonical} />
-      )}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+    <header className="bg-yellow-400 fixed top-0 left-0 right-0 shadow-md z-50">
+    {urlCanonical && <link rel="canonical" href={urlCanonical} />}
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex items-center justify-between h-16">
           {/* Logo et Titre (Mobile) */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center">
@@ -77,12 +76,10 @@ export default function Header({ urlCanonical }: HeaderProps) {
           <div className="flex items-center space-x-4">
             {/* Icône du Panier */}
             <Link href="/shop/cart" className="relative">
-              <Image
-                src="/shop/Shopping_cart_grasapunch.png"
-                alt="Cart"
-                width={30}
-                height={30}
-              />
+              <FaShoppingCart className="w-6 h-6 text-gray-800" />
+              <span className="absolute -top-1 -right-1 px-1 text-xs font-semibold text-white bg-red-500 rounded-full">
+                3
+              </span>
             </Link>
 
             {/* Bouton Menu Mobile */}
@@ -91,29 +88,11 @@ export default function Header({ urlCanonical }: HeaderProps) {
               onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle Menu"
             >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                {isMobileMenuOpen ? (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                ) : (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                )}
-              </svg>
+              {isMobileMenuOpen ? (
+                <FaTimes className="w-6 h-6" />
+              ) : (
+                <FaBars className="w-6 h-6" />
+              )}
             </button>
           </div>
         </div>

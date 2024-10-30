@@ -6,7 +6,7 @@ export interface BodyProps {
 
 export default function Body({ children }: BodyProps) {
     return (
-        <div className="flex-grow bg-gray-100">
+        <div className="flex-grow bg-gray-100 pt-16">
             {children}
         </div>
     );

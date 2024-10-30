@@ -75,7 +75,7 @@ export default function Footer() {
                             <a href="https://x.com/GrasaPunch" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                                 <FaXTwitter size={24} />
                             </a>
-                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                            <a href="https://www.instagram.com/_mistercouscous_/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                                 <FaInstagram size={24} />
                             </a>
                             <a href="https://medium.com/@grasapunch.live" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
