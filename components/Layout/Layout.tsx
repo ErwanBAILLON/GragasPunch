@@ -11,10 +11,10 @@ interface LayoutProps {
 
 export default function Layout({ children, urlCanonical }: LayoutProps) {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Header urlCanonical={urlCanonical} />
       <Body>{children}</Body>
       <Footer />
-    </>
+    </div>
   );
 }

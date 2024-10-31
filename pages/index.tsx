@@ -231,8 +231,47 @@ export default function HomePages() {
         </div>
       </section>
 
-      {/* Newsletter Signup */}
+      {/* Featured Partners */}
       <section className="py-12 bg-white">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">Featured Partners</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <Link href="https://arasgrasa.me" target="_blank" rel="noopener noreferrer" className="hover:opacity-75">
+              <Image
+                src="https://arasgrasa.me/images/logo.webp"
+                alt="ArasBurger"
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
+              <p className="text-lg font-semibold">ArasBurger</p>
+            </Link>
+            <Link href="https://arasgrasell.kusmicrew.cloud" target="_blank" rel="noopener noreferrer" className="hover:opacity-75">
+              <Image
+                src="https://arasgrasell.kusmicrew.cloud/wp-content/uploads/2024/09/DALL_E_2024-09-12_17.09.30_-_circle_logo_of_a_flower__realistic_style__4K-removebg-preview-150x150.png"
+                alt="arasgrasell"
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
+              <p className="text-lg font-semibold">ArasGrasell</p>
+            </Link>
+            <Link href="https://arasgrasa-pure.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-75">
+              <Image
+                src="https://arasgrasa-pure.com/wp-content/uploads/2024/10/cropped-Logo-ARAS-300x300.webp"
+                alt="arasgrasa-pure"
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
+              <p className="text-lg font-semibold">ArasGrasa Pure</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Signup */}
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
           <p className="text-lg mb-8">

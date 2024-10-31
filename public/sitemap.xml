@@ -92,6 +92,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://grasapunch.live/news/grasapunch-partners-with-arasburger</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
   <!-- Shop -->
   <url>

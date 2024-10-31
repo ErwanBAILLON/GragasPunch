@@ -124,5 +124,14 @@
         "date": "October 30, 2024",
         "url_markdown": "news/markdown/grasapunch-awarded-sustainable-brand.md",
         "image": "/news/image/Awarded_and_sustainable_brand.png"
+    },
+    {
+        "id": 12,
+        "uri": "grasapunch-partners-with-arasburger",
+        "title": "GrasaPunch Partners with ArasBurger for a Delicious Combo",
+        "excerpt": "GrasaPunch and ArasBurger join forces to offer a delicious combo of natural energy drinks and gourmet burgers. Discover the perfect pairing for a satisfying meal and lasting energy.",
+        "date": "November 1, 2024",
+        "url_markdown": "news/markdown/grasapunch-partners-with-arasburger.md",
+        "image": "/news/image/partnership-Grasapunch-with-ArasBurger.png"
     }
 ]
