@@ -22,9 +22,11 @@ export default function Header({ urlCanonical }: HeaderProps) {
     }
   }, [isMobileMenuOpen]);
 
+  console.log(urlCanonical);
+
   return (
     <header className="bg-yellow-400 fixed top-0 left-0 right-0 shadow-md z-50">
-    {urlCanonical && <link rel="canonical" href={urlCanonical} />}
+    {/* {urlCanonical && <link rel="canonical" href={urlCanonical} />} */}
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex items-center justify-between h-16">
           {/* Logo et Titre (Mobile) */}
