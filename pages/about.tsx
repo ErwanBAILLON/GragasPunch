@@ -43,7 +43,7 @@ export default function About() {
   };
 
   return (
-    <Layout>
+    <Layout title="GrasaPunch - About Us" description="Learn more about GrasaPunch, the team behind the brand, and our commitment to sustainability." url="https://grasapunch.live/about">
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center text-white text-center bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700">
         <div className="absolute inset-0"></div>

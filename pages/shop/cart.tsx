@@ -39,7 +39,7 @@ export default function Cart() {
     };
 
     return (
-        <Layout>
+        <Layout title="GrasaPunch - Your Cart" description="Review your cart and proceed to checkout with GrasaPunch's natural energy drinks. Boost your energy with healthy and natural ingredients. Order online now!" url="https://grasapunch.live/cart">
             <div className="max-w-7xl mx-auto px-4 py-8">
                 <h1 className="text-3xl font-bold mb-8 text-center">Your Cart</h1>
 

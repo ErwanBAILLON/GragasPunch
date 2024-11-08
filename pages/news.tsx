@@ -50,7 +50,7 @@ export default function News() {
     }, [searchQuery, sortOrder]);
 
     return (
-        <Layout urlCanonical="https://grasapunch.com/news">
+        <Layout title="GrasaPunch - News & Blog" description="Stay up-to-date with the latest news and articles from GrasaPunch. Discover new products, learn about our ingredients, and more!" url="https://grasapunch.live/news">
             <section className="py-12 bg-gray-100">
                 <div className="container mx-auto px-4">
                     <h1 className="text-4xl font-bold text-center mb-8">News & Blog</h1>

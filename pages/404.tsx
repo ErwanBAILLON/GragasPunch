@@ -4,7 +4,7 @@ import 'tailwindcss/tailwind.css';
 
 export default function Custom404() {
   return (
-    <Layout>
+    <Layout title="GrasaPunch - Page Not Found" description="The page you're looking for cannot be found. Return to the homepage or contact us for assistance." url="https://grasapunch.live/404">
       <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 p-6">
         <h1 className="text-9xl font-bold text-white">404</h1>
         <p className="mt-4 text-2xl text-white">Sorry, the page you&apos;re looking for cannot be found.</p>
