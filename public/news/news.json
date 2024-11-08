@@ -108,7 +108,7 @@
         "image": "/news/image/A_scene_depicting_workers_in_a_rural_village_harve.png"
     },
     {
-        "id": 10,
+        "id": 13,
         "uri": "grasapunch-partners-with-arasgrasell",
         "title": "GrasaPunch Partners with Arasgrasell for a Sustainable Future",
         "excerpt": "GrasaPunch and Arasgrasell team up to create a sustainable cycle from the cultivation of Arasgrasa to the production of natural energy drinks. Together, we promote eco-friendly practices and healthier lifestyles.",
@@ -117,7 +117,7 @@
         "image": "/news/image/file-7BXX26vwu5qVQLdeIIrfS3Ek.png"
     },
     {
-        "id": 11,
+        "id": 14,
         "uri": "grasapunch-awarded-sustainable-brand",
         "title": "GrasaPunch Awarded as a Sustainable Brand for Its Eco-Friendly Practices",
         "excerpt": "GrasaPunch receives recognition for its commitment to sustainability and eco-friendly practices in the production of natural energy drinks. Discover how we are making a difference for the planet.",
@@ -126,12 +126,39 @@
         "image": "/news/image/Awarded_and_sustainable_brand.png"
     },
     {
-        "id": 12,
+        "id": 15,
         "uri": "grasapunch-partners-with-arasburger",
         "title": "GrasaPunch Partners with ArasBurger for a Delicious Combo",
         "excerpt": "GrasaPunch and ArasBurger join forces to offer a delicious combo of natural energy drinks and gourmet burgers. Discover the perfect pairing for a satisfying meal and lasting energy.",
         "date": "November 1, 2024",
         "url_markdown": "news/markdown/grasapunch-partners-with-arasburger.md",
         "image": "/news/image/partnership-Grasapunch-with-ArasBurger.png"
+    },
+    {
+        "id": 16,
+        "uri": "grasapunch-expands-distribution-europe",
+        "title": "GrasaPunch Expands Distribution Across Europe",
+        "excerpt": "GrasaPunch has expanded its distribution network across Europe, bringing natural energy drinks powered by Arasgrasa to new markets. Learn about our commitment to growth and sustainability.",
+        "date": "November 3, 2024",
+        "url_markdown": "news/markdown/grasapunch-expands-distribution-europe.md",
+        "image": "/news/image/A_simple_and_clean_placeholder_image_with_the_text.png"
+    },
+    {
+        "id": 17,
+        "uri": "the-science-behind-arasgrasa",
+        "title": "The Science Behind Arasgrasa: Nature’s Energy Boost",
+        "excerpt": "Discover the scientific research supporting the benefits of Arasgrasa, the key ingredient in GrasaPunch’s natural energy drinks, and how it promotes sustained energy without artificial additives.",
+        "date": "November 5, 2024",
+        "url_markdown": "news/markdown/the-science-behind-arasgrasa.md",
+        "image": "/news/image/A_simple_and_clean_placeholder_image_with_the_text.png"
+    },
+    {
+        "id": 18,
+        "uri": "grasapunch-zero-waste-production",
+        "title": "GrasaPunch’s Journey Towards Zero Waste Production",
+        "excerpt": "Explore how GrasaPunch is committed to sustainability through zero-waste initiatives, eco-friendly packaging, and reduced waste at every stage of production.",
+        "date": "November 8, 2024",
+        "url_markdown": "news/markdown/grasapunch-zero-waste-production.md",
+        "image": "/news/image/A_simple_and_clean_placeholder_image_with_the_text.png"
     }
 ]

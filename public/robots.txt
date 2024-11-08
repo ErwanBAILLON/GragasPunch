@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
 
-Disallow: /news/[uri]
-Disallow: /shop/[uri]
-
 Sitemap: https://www.grasapunch.live/sitemap.xml
