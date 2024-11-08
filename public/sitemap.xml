@@ -97,6 +97,21 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://grasapunch.live/news/grasapunch-expands-distribution-europe</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/news.the-science-behind-arasgrasa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/news/grasapunch-zero-waste-production</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
   <!-- Shop -->
   <url>
@@ -109,6 +124,30 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://grasapunch.live/shop/cart</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Categories -->
+  <url>
+    <loc>https://grasapunch.live/shop/grasapunch-green</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/grasapunch-juice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grasapunch.live/shop/grasapunch-boost</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Products -->
   <url>
     <loc>https://grasapunch.live/shop/product/arasgrasa-mint</loc>
     <changefreq>monthly</changefreq>
@@ -137,11 +176,6 @@
   <url>
     <loc>https://grasapunch.live/shop/product/arasgrasa-mango-crazy</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://grasapunch.live/shop/cart</loc>
-    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>

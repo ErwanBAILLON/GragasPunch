@@ -6,11 +6,7 @@ import Link from "next/link";
 import { Transition } from "@headlessui/react";
 import { FaShoppingCart, FaBars, FaTimes } from "react-icons/fa";
 
-interface HeaderProps {
-  urlCanonical?: string;
-}
-
-export default function Header({ urlCanonical }: HeaderProps) {
+export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Désactiver le scroll lorsque le menu mobile est ouvert
@@ -21,8 +17,6 @@ export default function Header({ urlCanonical }: HeaderProps) {
       document.body.style.overflow = "";
     }
   }, [isMobileMenuOpen]);
-
-  console.log(urlCanonical);
 
   return (
     <header className="bg-yellow-400 fixed top-0 left-0 right-0 shadow-md z-50">

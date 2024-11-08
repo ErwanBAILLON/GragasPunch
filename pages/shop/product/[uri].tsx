@@ -43,7 +43,7 @@ export default function ProductPage() {
     const relatedProducts = category?.products.filter(p => p.id !== product.id) || [];
 
     return (
-        <Layout urlCanonical={`https://grasapunch.com/shop/product/${product.uri}`}>
+        <Layout title={`GrasaPunch - ${product.name}`} description={product.description} url={`https://grasapunch.live/shop/product/${product.uri}`}>
             <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
                 <div className="max-w-7xl mx-auto">
                     <div className="flex flex-col lg:flex-row items-center">

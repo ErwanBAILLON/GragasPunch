@@ -32,7 +32,7 @@ export default function ProductCategoryPage() {
   }
 
   return (
-    <Layout>
+    <Layout title={`GrasaPunch - ${categoryData?.name}`} description={`Discover the GrasaPunch range of ${categoryData?.name}. Explore our selection of natural energy drinks, designed to boost your vitality and well-being.`} url={`https://grasapunch.live/shop/${category}`}>
       {/* Hero Section */}
       <section
         className="relative h-screen flex flex-col items-center justify-center bg-cover bg-center text-white"

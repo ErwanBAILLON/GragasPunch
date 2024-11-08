@@ -81,7 +81,7 @@ export default function Article({ article, markdownContent, relatedArticles }: P
   }
 
   return (
-    <Layout urlCanonical={`https://grasapunch.com/news/${article.uri}`}>
+    <Layout title={`GrasaPunch - ${article.title}`} description={article.excerpt} url={`https://grasapunch.live/news/${article.uri}`}>
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Article Content */}
         <header className="mb-8 text-center">

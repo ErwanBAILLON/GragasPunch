@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   return (
-    <Layout urlCanonical="https://grasapunch.com/contact">
+    <Layout title="GrasaPunch - Contact Us" description="Get in touch with the GrasaPunch team. Send us your questions, feedback, or partnership inquiries. We're here to help!" url="https://grasapunch.live/contact">
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
       <div className="bg-white shadow-lg rounded-lg p-10 max-w-xl w-full">
         {formSubmitted ? (

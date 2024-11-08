@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Shop() {
     return (
-        <Layout>
+        <Layout title="GrasaPunch - Shop Natural Energy Drinks" description="Shop the GrasaPunch collection of natural energy drinks made with Arasgrasa. Discover healthy, energizing beverages designed to boost your vitality. Order now for a natural energy experience!" url="https://grasapunch.live/shop">
             {/* Hero Section */}
             <section className="relative bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 min-h-screen flex items-center justify-center">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 space-y-8 md:space-y-0">

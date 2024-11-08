@@ -60,7 +60,7 @@ export default function HomePages() {
   ];
 
   return (
-    <Layout urlCanonical="https://grasapunch.live">
+    <Layout title="GrasaPunch - Natural Energy Drinks with Arasgrasa" description="Discover GrasaPunch's range of natural energy drinks made with Arasgrasa. Boost your energy with healthy and natural ingredients. Order online now!" url="https://grasapunch.live">
       {/* Section Hero */}
       <section className="relative bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 min-h-screen flex items-center justify-center">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 space-y-8 md:space-y-0">
